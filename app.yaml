@@ -1,0 +1,83 @@
+# application: delhi-1018
+# version: 100
+runtime: python27
+threadsafe: true
+api_version: 1
+
+handlers:
+
+- url: /api/.*
+  script: api.app
+
+
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+  secure: always
+
+
+
+- url: /includes
+  static_dir: includes
+  secure: always
+
+
+- url: /media
+  static_dir: media
+  secure: always
+
+
+- url: /js
+  static_dir: js
+  secure: always
+
+
+
+- url: /static
+  static_dir: static
+  secure: always
+
+- url: /plugins
+  static_dir: plugins
+  secure: always
+- url: /css
+  static_dir: css
+  secure: always
+
+
+- url: /images
+  static_dir: images
+  secure: always
+
+
+- url: /fonts
+  static_dir: fonts
+  secure: always
+
+
+- url: /templates
+  static_dir: templates
+  secure: always
+
+
+- url: /.*
+  static_files: index.html
+  upload: index\.html
+  secure: always
+
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+
+- name: jinja2
+  version: latest
+
+- name: pycrypto
+  version: "2.6"
+
+- name: MySQLdb
+  version: "latest"
+
+

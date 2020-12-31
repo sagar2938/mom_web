@@ -1,0 +1,551 @@
+<link rel="stylesheet" type="text/css" href="css/new-web.css">
+<style type="text/css">
+    .slimScrollDiv{
+        height: auto !important;
+    }
+    .img_span{
+        float: left;padding-right: 7px;
+    }
+    .topnav {
+  overflow: hidden;
+  /*background-color: #333;*/
+  height: inherit;
+}
+.cart-topnav{
+  line-height: 1.6;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #333333 !important;
+  text-align: center;
+  padding: 14px 27px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  /*background-color: #ddd;*/
+  color: #eb7423 !important;
+}
+
+._2CgXb a:active {
+  /*background-color: #4CAF50;*/
+  color: #e96129 !important;
+}
+.topnav a:active{
+    color: #e96129 !important;
+}
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.header-left .icons > a {
+    padding: 0px 1.3125rem;
+    color: #fff;
+    line-height: 3;
+}
+.search-section .m-input-group .btn {
+    padding: 8px 25px;
+    border: 1px solid #fff !important;
+}
+
+.orange-btn {
+    background: #ff781c;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    border-color: #ff781c;
+}
+/*.form-control{
+  border: 1px solid lightblue;
+}*/
+.icon{
+    color: orange !important;
+}
+</style>
+<style type="text/css">
+    .profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.file-upload {
+    display: none !important;
+}
+.circle {
+    border-radius: 1000px !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border: 8px solid #fc801938;
+    position: absolute;
+    /*top: 72px;*/
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.p-image {
+  position: absolute;
+    top: 95px;
+    left: 128px;
+    color: #666666;
+}
+.p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+  font-size: 1.2em;
+}
+
+.upload-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
+#update_profile{
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    height: 30px;
+}
+.fa{
+    font-size: 18px !important;
+}
+._1T-E4:active{
+    color: orange;
+}
+</style>
+<!-- <div class="top-section visibal-hidden">
+    <div class="top-content-section">
+        <div class="container">
+            <div class="header-links text-center">
+                <a href="/" class="home-logo pull-left"><img src="/images/mom_logo.png" alt="MOM"/></a>
+                    <div class="pull-right margin_top15" ng-show="login_signUp">
+                        <div class="inner-header-links">
+                            <a href="#!/login">
+                            <button type="button" class="btn orange-btn login jqFbLogin" >Login</button></a>
+                           <a href="#!/page-register">
+                            <button type="button" class="btn orange-btn login jqFbLogin" ui-sref="login">Sign Up</button></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- <div class="top-section">
+    <div class="top-content-section">
+        <div class="container">
+            <div class="header-links">
+                <a href="/" class="home-logo"><img src="../images/mom_logo.PNG" alt="MOM"></a>
+                    <div class="pull-right margin_top15" ng-show="login_signUp">
+                        <a href="#!/login">
+                        <button type="button" class="btn orange-btn login jqFbLogin" style="background: #ff781c !important;color: #ffffff !important;border-color: #e6640c !important;">Login</button>
+                    </a>
+                    <a href="#!/page-register">
+                        <button type="button" class="btn orange-btn login jqFbLogin" data-toggle="modal" data-target="#jqFacebookLogin" style="background: #ff781c !important;color: #ffffff !important;border-color: #e6640c !important;">Sign Up</button></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="nav-header" style="box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);">
+            <div class="brand-logo">
+                <a href="#!/main/home" style="width: 200px">
+                    <b class="logo-abbr"><img src="../images/mom_logo.PNG" alt=""> </b>
+                    <span class="logo-compact"><img src="./images/logo-compact.png" alt=""></span>
+                    <span class="brand-title">
+                        <img src="../images/mom_logo.PNG" alt="" style="height: 40px;">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="header" style="box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);">    
+            <div class="header-content clearfix">
+                <!-- <div class="header-left">
+                    <div class="input-group icons">
+                        <input id="demo" type="text" class="form-control" style="width:300px;" placeholder="Search Dashboard"  aria-label="Search Dashboard" disabled="true" value="{{address_use}}" />
+                        <a class="btn mobile-s-icon" href="javascript:void(0)" id="search_text" ng-click="updateAddress()" style="padding: 0px;padding: 0px;margin-left: -12px;background-color: orange;padding-left: 10px;padding-right: 10px;width: 35px;z-index:1000000"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+
+                    </div>
+                    
+                </div>
+ -->
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons dropdown d-none d-md-flex">
+                            <div class="topnav" id="myTopnav">                        
+                        <ul class="_1JNGZ">
+                            <li class="_1fo6c cart-topnav">
+                                <!-- <a href="/" class="home-logo"><img src="../images/mom_logo.PNG" alt="MOM"></a> -->
+                                    <div class="pull-right margin_top15" ng-show="login_signUp">
+                                        <a href="#!/login">
+                                        <button type="button" class="btn orange-btn login jqFbLogin" style="background: #ff781c !important;color: #ffffff !important;border-color: #e6640c !important;">Login</button>
+                                    </a>
+                                    <a href="#!/page-register">
+                                    <button type="button" class="btn orange-btn login jqFbLogin" data-toggle="modal" data-target="#jqFacebookLogin" style="background: #ff781c !important;color: #ffffff !important;border-color: #e6640c !important;">Sign Up</button></a>
+                            </li>
+                            <!-- <li class="_1fo6c cart-topnav">
+                                <div class="_1fmVk _30y3a">
+                                    <div>
+                                        <div class="_2CgXb">
+                                            <a class="_1T-E4" href="/#!/main/order-details"><span class="_3yZyp _18ZFk"><i class="fa fa-first-order" aria-hidden="true"></i><span class="_2vS77"></span></span><span>Order</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="_1fo6c cart-topnav">
+                                <div class="_1fmVk _30y3a">
+                                    <div>
+                                        <div class="_2CgXb">
+                                            <a class="_1T-E4" href="/#!/main/checkOut"><span class="_3yZyp _18ZFk"><svg class="_1GTCc _173fq" height="20" viewbox="-1 0 37 32" width="20">
+                                            <path d="M4.438 0l-2.598 5.11-1.84 26.124h34.909l-1.906-26.124-2.597-5.11z"></path></svg><span class="_2vS77"></span></span><span>Cart</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="_1fo6c cart-topnav">
+                                <div class="_2CgXb">
+                                    <a class="_1T-E4" href="/#!/main/search-mom"><span class="_3yZyp"><svg class="_1GTCc" height="17" viewbox="5 -1 12 25" width="17">
+                                    <path d="M17.6671481,17.1391632 L22.7253317,22.1973467 L20.9226784,24 L15.7041226,18.7814442 C14.1158488,19.8024478 12.225761,20.3946935 10.1973467,20.3946935 C4.56550765,20.3946935 0,15.8291858 0,10.1973467 C0,4.56550765 4.56550765,0 10.1973467,0 C15.8291858,0 20.3946935,4.56550765 20.3946935,10.1973467 C20.3946935,12.8789625 19.3595949,15.3188181 17.6671481,17.1391632 Z M10.1973467,17.8453568 C14.4212261,17.8453568 17.8453568,14.4212261 17.8453568,10.1973467 C17.8453568,5.97346742 14.4212261,2.54933669 10.1973467,2.54933669 C5.97346742,2.54933669 2.54933669,5.97346742 2.54933669,10.1973467 C2.54933669,14.4212261 5.97346742,17.8453568 10.1973467,17.8453568 Z"></path></svg></span><span>Search</span></a>
+                                </div>
+                            </li> -->
+                            <!-- <li class="_1fo6c cart-topnav">
+                                <div class="_2CgXb">
+                                    <a class="_1T-E4" ui-sref="main.about"><span class="_3yZyp"><i class="fa fa-users" aria-hidden="true"></i></span><span>About</span></a>
+                                </div>
+                            </li> -->
+                            <!-- <li class="_1fo6c cart-topnav">
+                                <div class="_2CgXb">
+                                    <a class="_1T-E4 active" ui-sref="main.home"><span class="_3yZyp"><i class="fa fa-home" aria-hidden="true"></i></span><span>Home</span></a>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                        </li>
+                        <li class="icons dropdown" style="width: 80px;">
+                          <a href="#!/main-login/login-home">
+                            <!-- <div class="b5NJg"><span class="icon-magnifier" style="line-height: 3"></span></div> -->
+                            <a class="_1T-E4" href="/#!/login" style="line-height: 4;"  ng-if="conf === 0 "><button class="btn orange-btn login jqFbLogin">Login</button></a>
+                          </a>
+                            <div class="user-img c-pointer position-relative" data-toggle="dropdown"  ng-if="conf === 1">
+                                <span class="activity active"></span>
+                                <img src="{{image}}" height="40" width="40" alt="">
+                            </div>
+                            <div class="drop-down dropdown-profile animated fadeIn dropdown-menu"  style="margin-top: -20px;"  ng-if="conf === 1">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a data-toggle="modal" data-target="#profile_update" href=""><i class="fa fa-user icon" aria-hidden="true"></i><span>Profile Updated</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="/#!/login"><i class="fa fa-sign-out icon" aria-hidden="true"></i><span>Logout</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--  <div class="w3-teal">
+                          <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+                        </div>
+                        <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+                            <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+                            <a href="/#!/main/home" class="w3-bar-item w3-button" onclick="w3_close()">Home</a>
+                            <a href="#!/main/about" class="w3-bar-item w3-button" onclick="w3_close()">About</a>
+                            <a href="/#!/main/search-mom" class="w3-bar-item w3-button" onclick="w3_close()">Search</a>
+                            <a href="/#!/main/checkOut" class="w3-bar-item w3-button" onclick="w3_close()">Cart</a>
+                            <a href="#!/main/order-details" class="w3-bar-item w3-button" onclick="w3_close()">Order</a>
+                        </div> -->
+                    </ul>                   
+                </div>
+            </div>
+        </div>
+
+<!-- <a id="showHere1"></a>
+<div class="search-section">
+    <div class="display-inline">
+        <div class="pull-right">
+            <div class="m-input-group">
+                <input name="data[Search][text]" class="form-m-input searchTextHeader" placeholder="Enter your delivery location" id="dish_val" type="text"/><span class="fa fa-search input-icon"></span></div>
+            <div class="m-input-group">
+                <a href="javascript:void(0)" class="btn orange-btn mobile-s-icon" id="search_text">Search</a>            </div>
+        </div>
+    </div>
+</div> -->
+      
+        <ui-view></ui-view>
+
+        <footer class="main-footer padding_top20 padding_bottom15">
+            <div class="container">
+                <div class="footer-logo">
+                    <a class="mo-number-btn border-radius-50 margin_left10"><i class="fa fa-phone pull-left"></i>8249683386 </a>
+                </div>
+                <div class="footer-links">
+                    <ul class="left-links">
+                        <li>
+                            <a href="#!/main/contact-us">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#!/main/terms-con">Terms &amp; Condition</a>
+                        </li>
+                        <li>
+                            <a href="#!/main/privacy-policy">Privacy Policy</a>
+                        </li>
+                        <!-- <li>
+                            <a href="">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="">Career</a>
+                        </li>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=mom.com">Ratings and Review</a>
+                        </li> -->
+                    </ul>
+                    <div class="social-links">
+                        <a data-original-title="Facebook" data-placement="top" data-toggle="tooltip" href="https://m.facebook.com/profile.php?id=109885627054703&ref=content_filter" target="_blank"><img alt="Facebook" src="images/facebook.png" style="height: 20px"></a>
+                        <a data-original-title="Instagram" data-placement="top" data-toggle="tooltip" href="https://www.instagram.com/mom.bangalore/?igshid=j8vztqordpv4" target="_blank"><img alt="Instagram" src="images/insta.png" style="height: 20px"></a>
+                        <a data-original-title="Twitter" data-placement="top" data-toggle="tooltip" href="" target="_blank"><img alt="Twitter" src="images/twitter.png" style="height: 20px"></a>
+                        <a data-original-title="Linkedin" data-placement="top" data-toggle="tooltip" href="" target="_blank"><img alt="Linkedin" src="images/Linkedin.png" style="height: 20px"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+  </div>
+ 
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+  <script> function disable() { document.getElementById("demo").disabled = true; } function enable() { document.getElementById("demo").disabled = false; } </script>
+
+ <div class="modal" id="profile_update" style="background: transparent !important;" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal"
+                style="position: absolute;top: -16px;right: -16px;cursor: pointer;height: 32px;width: 32px;background: #fff;border-radius: 16px;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);border: 1px solid #e7eceb;text-align: center;font-size: 0px;opacity: 1;z-index:10"
+                ng-click="modal_dis()"><img src="images/close.png" style="height: 30px"></button>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12" style="padding-right: 30px;">
+                            <form id="add_customer_form" name="personForm" novalidate ng-submit="personForm.$valid &&update_profile()" class="clearfix">
+                                <div class="col-md-12 div_pad s011" style="height: 155px;">
+                                    <div class="circle">
+                                       <img class="profile-pic"  src="{{image}}">
+                                    </div>
+                                    <div class="p-image">
+                                       <i class="fa fa-camera upload-button"></i>
+                                        <input id="blah" onchange="readURL(this);" ng-model="imageurl"
+                                        custom-on-change="uploadFile" class="file-upload" type="file" accept="image/*" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12 div_pad s011">
+                                    <div class="field-wrapper form-group">
+                                        <input type="text" name="name" id="user_name" value="{{user_name}}">
+                                        <!-- <div class="field-placeholder"><span>Enter Your Name</span></div> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-12 div_pad s011">
+                                    <div class="field-wrapper form-group">
+                                        <!-- <input type="tel" name="user_mobile" id="user_mobile" maxlength="10" value="{{user_mobile}}"> -->
+                                        <input id="user_name" class="form-control" placeholder="Phone No" type="text" name="txtphone" ng-model="txtphone" ng-pattern="/^[0-9]{1,10}$/" required />
+                                      <span style="color:Red" ng-show="personForm.txtphone.$error.required"> Required! </span>
+                                      <span style="color:Red" ng-show="personForm.txtphone.$dirty&&personForm.txtphone.$error.pattern">Only Numbers Allowed, Maximum 10 Characters</span>
+                                        <!-- <div class="field-placeholder"><span>Enter Your Mobile</span></div> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-12 div_pad s011">
+                                    <div class="field-wrapper form-group">
+                                        <input id="user_email" class="form-control"  type="text" placeholder="Email *" name="email" ng-model="txtmail" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" required />
+                                      <span style="color:Red" ng-show="personForm.email.$error.required"> Required! </span>
+                                      <span style="color:Red" ng-show="personForm.email.$dirty&&personForm.email.$error.pattern">Please Enter Valid Email</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 div_pad button_top_pad s011" >
+                                    <button id="update_profile" class="btn-search"
+                                        style="width: 100%;">Update Profile</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+ 
+            $(".field-wrapper .field-placeholder").on("click", function () {
+                $(this).closest(".field-wrapper").find("input").focus();
+            });
+            $(".field-wrapper input").on("keyup", function () {
+                var value = $.trim($(this).val());
+                if (value) {
+                    $(this).closest(".field-wrapper").addClass("hasValue");
+                } else {
+                    $(this).closest(".field-wrapper").removeClass("hasValue");
+                }
+            });
+ 
+        });
+</script>
+<script>
+function openLeftMenu() {
+  document.getElementById("leftMenu").style.display = "block";
+}
+
+function closeLeftMenu() {
+  document.getElementById("leftMenu").style.display = "none";
+}
+
+function openRightMenu() {
+  document.getElementById("rightMenu").style.display = "block";
+}
+
+function closeRightMenu() {
+  document.getElementById("rightMenu").style.display = "none";
+}
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+    
+    var readURL = function(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.profile-pic').attr('src', e.target.result);
+            }
+    
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    
+
+    $(".file-upload").on('change', function(){
+        readURL(this);
+    });
+    
+    $(".upload-button").on('click', function() {
+       $(".file-upload").click();
+    });
+});
+</script>
+
+<!-- image upload -->
+<script type="text/javascript">
+    function readURL(input) {
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah')
+                    .attr('src', e.target.result);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+
+        }
+    }
+</script>
+<script type="text/javascript">
+    var emailInput;
+
+$("#user_email").on("change", function() {
+  emailInput = $(this).val();
+
+  if (validateEmail(emailInput)) {
+    $(this).css({
+      color: "white",
+      border: "1px solid #2196f3"
+    });
+  } else {
+    $(this).css({
+      color: "red",
+      border: "1px solid red"
+    });
+
+    // alert("not a valid email address");
+  }
+});
+
+$("#user_email").on("change", function(e) {
+  // e.preventDefault();
+  if (validateEmail(emailInput)) {
+    // alert("you did it!");
+    // Notify("Can't Touch This");
+  } else {
+    // alert('nope');
+    return false;
+  }
+});
+
+function validateEmail(email) {
+  var pattern = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+
+  return $.trim(email).match(pattern) ? true : false;
+}
+</script>
+<script type="text/javascript">
+    // Restricts input for each element in the set of matched elements to the given inputFilter.
+(function($) {
+  $.fn.inputFilter = function(inputFilter) {
+    return this.on("input keydown keyup mousedown mouseup select contextmenu drop", function() {
+      if (inputFilter(this.value)) {
+        this.oldValue = this.value;
+        this.oldSelectionStart = this.selectionStart;
+        this.oldSelectionEnd = this.selectionEnd;
+      } else if (this.hasOwnProperty("oldValue")) {
+        this.value = this.oldValue;
+        this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+      } else {
+        this.value = "";
+      }
+    });
+  };
+}(jQuery));
+$("#user_mobile").inputFilter(function(value) {
+  return /^\d*$/.test(value) && (value === "" || parseInt(value) <= 50000000000); });
+</script>
+
+
+    
+

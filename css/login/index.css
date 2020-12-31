@@ -1,0 +1,165 @@
+*{
+  margin: 0 auto;
+  padding: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bacgr_image{
+background-image: url("../images/gaplogix.png");  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-page{
+  height: auto;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+  position:absolute;
+  top:50%;
+  margin-left:-200px;
+  margin-top:-200px;
+  padding-top:20px;
+  left:50%;
+  background-color:rgba(255, 255, 255, 0.20 );
+  border-radius:21px;
+  /*text-align: center;*/
+  
+}
+
+#loginPage{
+  height:100vh;
+}
+
+
+.log_ht{
+   text-align: center;
+       margin-bottom: 12px;
+}
+.log_img{width: 215px;height: auto;}
+
+.form_setup{
+  padding: 40px;
+} 
+
+ 
+
+.text-set{
+  text-align: right;
+  color: #ffffff;
+   
+
+}
+
+.btn_success{
+  background-color: #00aeef;
+    border-radius: 3px;
+    border: 0px;
+    padding: 5px 41px;
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+
+
+
+.group        { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+.group1         { 
+  position:relative; 
+  margin-bottom:15px; 
+}
+input         {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #ffffff;
+  background: transparent;
+}
+input:focus     { outline:none; }
+
+/* LABEL ======================================= */
+label          {
+  color:#ffffff; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label    {
+  top:-20px;
+  font-size:14px;
+  color:#00aeef;
+}
+
+/* BOTTOM BARS ================================= */
+.bar  { position:relative; display:block; width:300px; }
+.bar:before, .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#00aeef; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+
+

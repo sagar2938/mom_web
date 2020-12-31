@@ -1,0 +1,938 @@
+<!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> -->
+<link rel="stylesheet" type="text/css" href="css/datepicker.css">
+<link rel="stylesheet" href="css/bootstrap.css" >
+<style type="text/css">
+.accepted_style{
+	background-color: gray;
+    padding: 10px;
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 1295px;
+}
+}
+ul, li, div {
+    background: hsla(0, 0%, 0%, 0);
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font: 13px/20px "Droid Sans", Arial, "Helvetica Neue", "Lucida Grande", sans-serif;
+    /*text-shadow: 0 1px 0 hsl(0, 100%, 100%);*/
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tabs-nav li:first-child a {
+    border-right: 0;
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.tabs-nav .tab-active a {
+    background: hsl(0, 100%, 100%);
+    border-bottom-color: hsla(0, 0%, 0%, 0);
+    color: hsl(85, 54%, 51%);
+    cursor: default;
+    color: white; 
+    padding: 6px 6px;
+    line-height: 2.5;
+    font-size: 10px;
+    background-color: #f79623;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.tabs-nav a {
+    color: hsl(215, 6%, 57%);
+    display: block;
+    font-size: 12px;
+    height: 40px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 140px;
+}
+.tabs-nav li {
+    float: left;
+}
+.tabs-stage {
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    -ms-border-radius: 0 0 6px 6px;
+    -o-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    border-top: 0;
+    clear: both;
+    margin-bottom: 20px;
+    position: relative;
+    top: -1px;
+    width: 281px;
+}
+.tabs-stage p {
+    margin: 0;
+    padding: 20px;
+    color: hsl(0, 0%, 33%);
+}
+.toggle {
+  font-family: arial, sans-serif;
+}
+.toggle .tabs {
+  /*border-bottom: 1px solid grey;*/
+  width: 100%;
+  overflow: hidden;
+  height: 55px;
+  line-height: 36px;
+}
+.toggle .tabs .tab {
+    float: left;
+    color: #777777;
+    height: 31px;
+    margin: 2px 8px 0;
+    padding: 7px 34px;
+    cursor: pointer;
+    width: 13%;
+    text-align: center;
+    height: 40px;
+}
+.toggle .tabs .tab.active {
+  /*color: #dd4b39;
+  border-bottom: 3px solid #dd4b39;*/
+    background: hsl(0, 100%, 100%);
+    border-bottom-color: hsla(0, 0%, 0%, 0);
+    color: hsl(85, 54%, 51%);
+    cursor: default;
+    color: white;
+    padding: 9px 6px;
+    /*line-height: 2.5;*/
+    font-size: 12px;
+    background-color: #f79623;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.toggle .panels .panel {
+  padding: 20px 10px;
+  display: none;
+}
+.toggle .panels .panel:first-child {
+  display: block;
+}
+
+/*.activeclass{
+	color: white; 
+    padding: 6px 6px;
+    line-height: 1.8;
+    font-size: 15px;
+    background-color: #f79623;
+    border-radius: 4px;}*/
+.row {
+ margin-right: 15px; 
+ margin-left: 15px; 
+}
+.butn{
+    width: 100%;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    background-color: #f5520b;
+    color: white;
+}
+.butn1{
+    width: 100%;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    background-color: green;
+    color: white;   
+}
+@media (min-width: 768px){
+.col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 31.33333%;
+}
+}
+.hei{
+    height: 140px;
+    overflow-y: auto;
+}
+@media (min-width: 768px){
+.col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-left: 15px;
+}
+}
+
+@media (max-width: 754px) {
+ .toggle .tabs .tab {
+    float: left;
+    color: #777777;
+    height: 31px;
+    margin: 2px 8px 0;
+    padding: 7px 1px;
+    cursor: pointer;
+    width: 26%;
+    text-align: center;
+    height: 40px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+  
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+/*.dropdown-menu {
+    display: block;
+}*/
+.pagination {
+    display: -ms-flexbox;
+    display: inline-block;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+.location_add{
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  height: 61px;
+}
+</style>
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #fff;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 9px;
+  font-size: 17px;
+  width: 12%;
+  border-radius: 10px;
+}
+
+.tablink:hover {
+  background-color: #fff;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  /*color: white;*/
+  display: none;
+  padding: 44px 20px;
+  height: 100%;
+}
+.container {
+    width: 1349px !important;
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="css/search-html.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/new-web.css"> -->
+<div class="nDVxx container">
+	<div class="_1LkiC">
+		<button class="tablink" onclick="openPage('Home', this, '#fc8019')" id="defaultOpen">Ordered</button>
+        <button class="tablink" onclick="openPage('News', this, '#fc8019')" >Ongoing</button>
+        <button class="tablink" onclick="openPage('Contact', this, '#fc8019')">History</button>
+        <!-- <button class="tablink" onclick="openPage('About', this, 'orange')">About</button> -->
+
+<div id="Home" class="tabcontent" style="padding: 70px 20px;">
+    <!-- <div class="row">
+    <div class="col-sm-3" style="padding-top: 15px;padding-left: 43px;">
+                  <span class="padd nleft">From</span> <input class="form-control datetimepicker pay_date" id="from" name="start_date" placeholder="" type="text" value="" readonly>
+                </div>
+                 <div class="col-sm-3" style="padding-top: 15px;padding-left: 43px;">
+                  <span class="padd">To</span> <input class="form-control datetimepicker pay_date" id="to" name="end_date" placeholder="" type="text" value="" readonly>
+                </div>
+
+                  <div class="col-sm-3" style="margin-top:34px; ">
+                    <input class="pay_go" style="background-color: #ff8c1a;border: none;padding: 11px 70px;text-align: center;text-decoration: none;display: inline-block;color:#FFF;margin: 4px 2px;cursor: pointer;-webkit-transition-duration: 0.4s; /* Safari */transition-duration: 0.4s" data-disable-with="go" name="commit" ng-click="lead()" type="submit" value="Go">
+                </div>
+        </div> -->
+  <div ng-repeat="order in order_list" class="_3XX_A col-md-3" style="margin-bottom: 10px;height: 65vh;">
+                <div class="">
+                    <div class="card w3-card" style="padding: 10px;">
+                        <div class="row">
+                        <div class="col-md-3">
+                            <img src="{{image}}" style="height: 50px;width: 50px">
+                            
+                        </div>
+                        <!-- <div class="col-md-3" ng-if="order.image_name != ''">
+                            <img src="{{order.profileImage}}" style="height: 50px;width: 50px">
+                            
+                        </div> -->
+                        <div class="col-md-9">
+                            <div class="col-md-12">{{order.name}}</div>
+                            <div class="col-md-12"><img src="images/rupee.png"> <span><b>{{order.total_price}}</b></span></div>
+                            <br>
+                            <!-- <div class="col-md-12">sima sinha</div> -->
+                            <div class="col-md-12 location_add" >{{order.location}}</div>
+                        </div>
+                        </div>
+                        <div class="row" style="border-top: 1px solid lightgrey;border-bottom: 1px solid lightgrey;margin-left: -11px;margin-right: 0px;">
+                            <div class="col-md-6" style="text-align: center;border-right: 1px solid lightgrey;padding: 10px;">{{order.createdAt}}</div>
+                            <div class="col-md-6" style="text-align: center;padding: 10px;">{{order.orderId}}</div>
+                        </div>
+                        <div class="row">
+                            <span style="padding: 10px;">
+                                <b>Order Details</b>
+                            </span>
+                        </div>
+                        <div class="hei">
+                            <div class="row">
+                                <div class="" ng-repeat="pro in order.productList">
+                                    <div class="row">
+                                        <span  style="float: left; padding-right: 10px;">
+                                            <img src="{{pro.image}}" style="height: 60px;width: 80px;border-radius: 10px;">
+                                        </span>
+                                        <span style="line-height: 2;">
+                                            <span>
+                                                {{pro.food_item}}
+                                            </span>
+                                            <span>
+                                                <!-- <i class="fa fa-list-ol" aria-hidden="true"></i> --> <span style="padding-left: 10px"></span>{{pro.quantity}}
+                                            </span>
+                                            <span>
+                                                <img src="images/rupee.png"><span><b style="margin-left: 6px">{{pro.itemActualPrice}}</b></span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                            <br>
+                        <div class="col-md-12">
+                            <button class="butn" data-toggle="modal" data-target="#cancleModal{{order.orderId}}">
+                                 
+                                <span  style="padding-left: 10px">
+                                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                </span>
+                                Cancel</button>
+                        </div>
+                        <div class="modal" id="cancleModal{{order.orderId}}" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        style="position: absolute;top: -16px;right: -16px;cursor: pointer;height: 32px;width: 32px;background: #fff;border-radius: 16px;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);border: 1px solid #e7eceb;text-align: center;font-size: 0px;opacity: 1;z-index:10"
+                                        ng-click="modal_dis()"><img src="images/close.png" style="height: 30px"><span>Cancel?</span></button>
+                                    <div class="modal-body" style="overflow-y: auto;">
+                                        <div class="row">
+                                          <div class="col-md-1">
+                                            <h5><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size: 25px;color: #fc8019;"></i></h5>                   
+                                          </div>
+                                          <div class="col-md-11">
+                                            <h4><b>Do you want to cancel?</b></h4>
+                                          </div>                   
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                                        <button type="button" class="btn btn-default" ng-click="cancleOrder(order.orderId)">Yes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+               <!-- <div class="text-center">
+                  <dir-pagination-controls boundary-links="true" on-page-change="pageChangeHandler(newPageNumber)" template-url="templates/dirPagination.tpl.html"></dir-pagination-controls>
+                </div>   --> 
+</div>
+
+<div id="News" class="tabcontent" style="padding: 85px 20px;">
+    <!-- <div class="row">
+     <div class="col-sm-3" style="padding-top: 15px;padding-left: 43px;">
+                  <span class="padd nleft">From</span> <input class="form-control datetimepicker pay_date" id="from1" name="start_date" placeholder="" type="text" value="" readonly >
+                </div>
+                 <div class="col-sm-3" style="padding-top: 15px;padding-left: 43px;">
+                  <span class="padd">To</span> <input class="form-control datetimepicker pay_date" id="to1" name="end_date" placeholder="" type="text" value="" readonly >
+                </div>
+
+                  <div class="col-sm-3" style="margin-top: 34px; ">
+                    <input class="pay_go" style="background-color: #ff8c1a;border: none;padding: 11px 70px;text-align: center;text-decoration: none;display: inline-block;color:#FFF;margin: 4px 2px;cursor: pointer;-webkit-transition-duration: 0.4s; /* Safari */transition-duration: 0.4s" data-disable-with="go" name="commit" ng-click="acceptedList()" type="submit" value="Go">
+                </div>
+            </div> -->
+  <div  ng-repeat="ongoing in onging_list" class="_3XX_A col-md-3" style="margin-bottom: 10px;height: 65vh;">
+                <div>
+                        <div class="card w3-card" style="padding: 10px;">
+                            <div class="row">
+                            <div class="col-md-3">
+                                <img src="{{image}}" style="height: 50px;width: 50px">
+                                
+                            </div>
+                            <div class="col-md-9">
+                                <div class="col-md-12">{{ongoing.name}}</div>
+                                <div class="col-md-12"><img src="images/rupee.png"> <span><b>{{ongoing.total_price}}</b></span></div>
+                                <br>
+                                <!-- <div class="col-md-12">sima sinha</div> -->
+                                <div class="col-md-12 location_add">{{ongoing.location}}</div>
+                            </div>
+                            </div>
+                            <div class="row" style="border-top: 1px solid lightgrey;border-bottom: 1px solid lightgrey;margin-left: -11px;margin-right: -11px;">
+                                <div class="col-md-6" style="text-align: center;border-right: 1px solid lightgrey;padding: 10px;">{{ongoing.createdAt}}</div>
+                                <div class="col-md-6" style="text-align: center;padding: 10px;">{{ongoing.orderId}}</div>
+                            </div>
+                            <div class="row">
+                                <span style="padding: 10px;">
+                                    <b>Order Details</b>
+                                </span>
+                            </div>
+                            <div class="hei">
+                                <div class="row">
+                                    <div class="" ng-repeat="ong in ongoing.productList">
+                                        <div class="row">
+                                            <span  style="float: left; padding-right: 10px;">
+                                                <img src="{{ong.image}}" style="height: 60px;width: 80px;border-radius: 10px;">
+                                            </span>
+                                            <span style="line-height: 2;">
+                                                <span>
+                                                    {{ong.food_item}}
+                                                </span>
+                                                <span>
+                                                    <!-- <i class="fa fa-list-ol" aria-hidden="true"></i> --> <span style="padding-left: 3px"></span>{{ong.quantity}}
+                                                </span>
+                                                <span>
+                                                    <img src="images/rupee.png"><span><b style="margin-left: 6px">{{ong.itemActualPrice}}</b></span>
+                                                </span>
+                                            </span>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                                <br>
+                            <div class="col-md-12">
+                                <button class="butn1" data-toggle="modal" data-target="#trackModal{{ongoing.orderId}}">
+                                    <span  style="padding-left: 10px">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </span>
+                                    Track</button>
+                                    <div class="modal" id="trackModal{{ongoing.orderId}}" role="dialog">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    style="position: absolute;top: -16px;right: -16px;cursor: pointer;height: 32px;width: 32px;background: #fff;border-radius: 16px;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);border: 1px solid #e7eceb;text-align: center;font-size: 0px;opacity: 1;z-index:10"
+                                                    ng-click="modal_dis()"><img src="images/close.png" style="height: 30px"></button>
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                          <div class="col-md-12">
+                                                                <div class="">
+                                                                    <div class="">
+                                                                        <h4 style="text-align: left;font-weight: 700"><img src="images/favicon.png">Order Tracking
+                                                                        </h4>
+                                                                        For tracking your order download the app now: <br><a href="https://play.google.com/store/apps/details?id=mom.com&hl=en">https://play.google.com/store/apps/details?id=mom.com&hl=en</a>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button aria-hidden="true" class="close" data-dismiss="modal" type="button" style="color:orange;opacity: 1" >Ok</button>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+           <!--  <div class="text-center">
+          <dir-pagination-controls boundary-links="true" on-page-change="pageChangeHandler(newPageNumber)" template-url="templates/dirPagination.tpl1.html"></dir-pagination-controls>
+        </div> -->
+</div>
+
+<div id="Contact" class="tabcontent" >
+    <div class="row">
+    <div class="col-sm-3" style="padding-top: 15px;padding-left: 43px;">
+                  <span class="padd nleft">From</span> <input class="form-control datetimepicker pay_date" id="from2" name="start_date" placeholder="" type="text" value="" readonly >
+                </div>
+                 <div class="col-sm-3" style="padding-top: 15px;padding-left: 43px;">
+                  <span class="padd">To</span> <input class="form-control datetimepicker pay_date" id="to2" name="end_date" placeholder="" type="text" value="" readonly >
+                </div>
+
+                  <div class="col-sm-3" style="margin-top:34px; ">
+                    <input class="pay_go" style="background-color: #ff8c1a;border: none;padding: 11px 70px;text-align: center;text-decoration: none;display: inline-block;color:#FFF;margin: 4px 2px;cursor: pointer;-webkit-transition-duration: 0.4s; /* Safari */transition-duration: 0.4s" data-disable-with="go" name="commit" ng-click="reached()" type="submit" value="Go">
+                </div>
+        </div>
+  <div  ng-repeat="history in history_list" class="_3XX_A col-md-3" style="margin-bottom: 10px;height: 65vh;">
+            <div >
+                    <div class="card w3-card" style="padding: 10px;">
+                        <div class="row">
+                        <div class="col-md-3">
+                            <img src="{{image}}" style="height: 50px;width: 50px">
+                            
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-6">{{history.name}}</div>
+                                <div class="col-md-6" ng-if="history.orderStatus === 4" style="text-align: center;">
+                                <p style="color: red;font-size: 10px">Cancelled</p>
+                                </div>
+                                <div class="col-md-6" ng-if="history.orderStatus === 6" style="text-align: center;">
+                                    <p style="color: #25ab25;font-size: 10px">Delivered</p>
+                                </div>
+                                <!-- <div class="col-md-6" ng-if="history.orderStatus === 2" style="text-align: center;">
+                                    <p style="color: #25ab25;font-size: 10px">Delivery in Process</p>
+                                </div> -->
+                            </div>
+                            <div class="col-md-12"><img src="images/rupee.png"> <span><b>{{history.total_price}}</b></span></div>
+                            <br>
+                            <!-- <div class="col-md-12">sima sinha</div> -->
+                            <div class="col-md-12 location_add">{{history.location}}</div>
+                            
+                        </div>
+                        
+                        </div>
+                        <div class="row" style="border-top: 1px solid lightgrey;border-bottom: 1px solid lightgrey;margin-left: -11px;margin-right: -11px;">
+                            <div class="col-md-6" style="text-align: center;border-right: 1px solid lightgrey;padding: 10px;">{{history.createdAt}}</div>
+                            <div class="col-md-6" style="text-align: center;padding: 10px;">{{history.orderId}}</div>
+                        </div>
+                        <div class="row">
+                            <span style="padding: 10px;">
+                                <b>Order Details</b>
+                            </span>
+                        </div>
+                        <div class="hei">
+                            <div class="row">
+                                <div class="" ng-repeat="his in history.productList">
+                                    <div class="row">
+                                        <span  style="float: left; padding-right: 10px;">
+                                            <img src="{{his.image}}" style="height: 60px;width: 80px;border-radius: 10px;">
+                                        </span>
+                                        <span style="line-height: 2;">
+                                            <span>
+                                                {{his.food_item}}
+                                            </span>
+                                            <span>
+                                                <!-- <i class="fa fa-list-ol" aria-hidden="true"></i> --> <span style="padding-left: 3px"></span>{{his.quantity}}
+                                            </span>
+                                            <span>
+                                                <img src="images/rupee.png"><span><b style="margin-left: 6px">{{his.itemActualPrice}}</b></span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                         <div style="text-align: right;color: orange;" ng-click="repeatOrder(history)">
+                             <span style="padding-right: 10px;"><i class="fa fa-repeat" aria-hidden="true"></i></span><span>Repeat Order</span>
+                         </div>
+                    </div>
+                    
+            </div>
+
+        </div>
+       <!--  <div class="text-center">
+            <dir-pagination-controls boundary-links="true" on-page-change="pageChangeHandler(newPageNumber)" template-url="templates/dirPagination.tpl2.html"></dir-pagination-controls>
+        </div> -->
+</div>
+
+<!-- <div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div> -->
+</div>
+
+<!-- <script type="text/javascript">
+	// From http://learn.shayhowe.com/advanced-html-css/jquery
+
+// Change tab class and display content
+$('.tabs-nav a').on('click', function (event) {
+    event.preventDefault();
+    
+    $('.tab-active').removeClass('tab-active');
+    $(this).parent().addClass('tab-active');
+    $('.tabs-stage div').hide();
+    $($(this).attr('href')).show();
+});
+
+$('.tabs-nav a:first').trigger('click'); // Default
+</script>
+<script type="text/javascript">
+    (function() {
+  $(function() {
+    var toggle;
+    return toggle = new Toggle('.toggle');
+  });
+
+  this.Toggle = (function() {
+    Toggle.prototype.el = null;
+
+    Toggle.prototype.tabs = null;
+
+    Toggle.prototype.panels = null;
+
+    function Toggle(toggleClass) {
+      this.el = $(toggleClass);
+      this.tabs = this.el.find(".tab");
+      this.panels = this.el.find(".panel");
+      this.bind();
+    }
+
+    Toggle.prototype.show = function(index) {
+      var activePanel, activeTab;
+      this.tabs.removeClass('active');
+      activeTab = this.tabs.get(index);
+      $(activeTab).addClass('active');
+      this.panels.hide();
+      activePanel = this.panels.get(index);
+      return $(activePanel).show();
+    };
+
+    Toggle.prototype.bind = function() {
+      var _this = this;
+      return this.tabs.unbind('click').bind('click', function(e) {
+        return _this.show($(e.currentTarget).index());
+      });
+    };
+
+    return Toggle;
+
+  })();
+
+}).call(this);
+
+</script> -->
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script >
+  var today = new Date();
+
+  var dd = String(today.getDate()).padStart(2, '0');
+  var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+  var yyyy = today.getFullYear();
+
+  today = dd + '/' + mm + '/' + yyyy;
+
+  var dates = $("#from").datepicker({
+    defaultDate: "+7",
+    changeMonth: true,
+    numberOfMonths: 1,
+    // minDate: 0,
+    autoclose:true,
+    // startDate: "today",
+    ignoreReadonly: false,
+    format: 'dd/mm/yyyy',
+    onSelect: function(selectedDate) {
+    var option = this.id == "from" ? "minDate" : "maxDate",
+         instance = $(this).data("datepicker"),
+         date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+        
+     dates.not(this).datepicker("option", option, date);
+   }
+
+ });
+ var start_date = $("#from").val();
+ var dateToday = new Date();
+ console.log(dateToday)
+ var dates = $("#to").datepicker({
+     defaultDate: "",
+     changeMonth: true,
+     numberOfMonths: 1,
+     // minDate: 0,
+    autoclose:true,
+    // startDate: "today",
+    ignoreReadonly: false,
+     format: 'dd/mm/yyyy',
+
+     onSelect: function(selectedDate) {
+     var option = this.id == "from" ? "minDate" : "maxDate",
+         instance = $(this).data("datepicker"),
+         date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+     dates.not(this).datepicker("option", option, date);
+ }
+ });
+  $("#to").datepicker().datepicker("setDate", new Date());
+   var old_date = new Date();
+   old_date.setDate(old_date.getDate() - 7);
+    $("#from").datepicker().datepicker("setDate", old_date);
+
+  // $(document).ready(function(){
+  //       $("#saurabh").select2();
+  //       $('.nav').removeClass("open");
+  // });
+
+</script>
+<script >
+  var today = new Date();
+
+  var dd = String(today.getDate()).padStart(2, '0');
+  var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+  var yyyy = today.getFullYear();
+
+  today = dd + '/' + mm + '/' + yyyy;
+
+  var dates = $("#from1").datepicker({
+    defaultDate: "+7",
+    changeMonth: true,
+    numberOfMonths: 1,
+    // minDate: 0,
+    autoclose:true,
+    // startDate: "today",
+    ignoreReadonly: false,
+    format: 'dd/mm/yyyy',
+    onSelect: function(selectedDate) {
+    var option = this.id == "from" ? "minDate" : "maxDate",
+         instance = $(this).data("datepicker"),
+         date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+        
+     dates.not(this).datepicker("option", option, date);
+   }
+
+ });
+ var start_date = $("#from1").val();
+ var dateToday = new Date();
+ console.log(dateToday)
+ var dates = $("#to1").datepicker({
+     defaultDate: "",
+     changeMonth: true,
+     numberOfMonths: 1,
+     // minDate: 0,
+    // autoclose:true,
+   // minDate: 0,
+    autoclose:true,
+    // startDate: "today",
+    ignoreReadonly: false,
+     format: 'dd/mm/yyyy',
+
+     onSelect: function(selectedDate) {
+     var option = this.id == "from" ? "minDate" : "maxDate",
+         instance = $(this).data("datepicker"),
+         date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+     dates.not(this).datepicker("option", option, date);
+ }
+ });
+  $("#to1").datepicker().datepicker("setDate", new Date());
+   var old_date = new Date();
+   old_date.setDate(old_date.getDate() - 7);
+    $("#from1").datepicker().datepicker("setDate", old_date);
+
+  // $(document).ready(function(){
+  //       $("#saurabh").select2();
+  //       $('.nav').removeClass("open");
+  // });
+
+</script>
+<script >
+  var today = new Date();
+
+  var dd = String(today.getDate()).padStart(2, '0');
+  var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+  var yyyy = today.getFullYear();
+
+  today = dd + '/' + mm + '/' + yyyy;
+
+  var dates = $("#from2").datepicker({
+    defaultDate: "+7",
+    changeMonth: true,
+    numberOfMonths: 1,
+    // minDate: 0,
+    autoclose:true,
+    // minDate: 0,
+    // autoclose:true,
+    // startDate: "today",
+    ignoreReadonly: false,
+    // ignoreReadonly: false,
+    format: 'dd/mm/yyyy',
+    onSelect: function(selectedDate) {
+    var option = this.id == "from" ? "minDate" : "maxDate",
+         instance = $(this).data("datepicker"),
+         date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+        
+     dates.not(this).datepicker("option", option, date);
+   }
+
+ });
+ var start_date = $("#from2").val();
+ var dateToday = new Date();
+ console.log(dateToday)
+ var dates = $("#to2").datepicker({
+     defaultDate: "",
+     changeMonth: true,
+     numberOfMonths: 1,
+     // minDate: 0,
+    autoclose:true,
+    // startDate: "today",
+    ignoreReadonly: false,
+     format: 'dd/mm/yyyy',
+
+     onSelect: function(selectedDate) {
+     var option = this.id == "from" ? "minDate" : "maxDate",
+         instance = $(this).data("datepicker"),
+         date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+     dates.not(this).datepicker("option", option, date);
+ }
+ });
+  $("#to2").datepicker().datepicker("setDate", new Date());
+   var old_date = new Date();
+   old_date.setDate(old_date.getDate() - 7);
+    $("#from2").datepicker().datepicker("setDate", old_date);
+
+  // $(document).ready(function(){
+  //       $("#saurabh").select2();
+  //       $('.nav').removeClass("open");
+  // });
+
+</script>
+<script >
+  var today = new Date();
+
+  var dd = String(today.getDate()).padStart(2, '0');
+  var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+  var yyyy = today.getFullYear();
+
+  today = dd + '/' + mm + '/' + yyyy;
+
+  var dates = $("#from3").datepicker({
+    defaultDate: "+7",
+    changeMonth: true,
+    numberOfMonths: 1,
+    // minDate: 0,
+    autoclose:true,
+    // startDate: "today",
+    ignoreReadonly: false,
+    format: 'dd/mm/yyyy',
+    onSelect: function(selectedDate) {
+    var option = this.id == "from" ? "minDate" : "maxDate",
+         instance = $(this).data("datepicker"),
+         date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+        
+     dates.not(this).datepicker("option", option, date);
+   }
+
+ });
+ var start_date = $("#from3").val();
+ var dateToday = new Date();
+ console.log(dateToday)
+ var dates = $("#to3").datepicker({
+     defaultDate: "",
+     changeMonth: true,
+     numberOfMonths: 1,
+     // minDate: 0,
+    autoclose:true,
+    // startDate: "today",
+    ignoreReadonly: false,
+     format: 'dd/mm/yyyy',
+
+     onSelect: function(selectedDate) {
+     var option = this.id == "from" ? "minDate" : "maxDate",
+         instance = $(this).data("datepicker"),
+         date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+     dates.not(this).datepicker("option", option, date);
+ }
+ });
+  $("#to3").datepicker().datepicker("setDate", new Date());
+   var old_date = new Date();
+   old_date.setDate(old_date.getDate() - 7);
+    $("#from3").datepicker().datepicker("setDate", old_date);
+
+  // $(document).ready(function(){
+  //       $("#saurabh").select2();
+  //       $('.nav').removeClass("open");
+  // });
+
+</script>
+<script >
+  var today = new Date();
+
+  var dd = String(today.getDate()).padStart(2, '0');
+  var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+  var yyyy = today.getFullYear();
+
+  today = dd + '/' + mm + '/' + yyyy;
+
+  var dates = $("#from4").datepicker({
+    defaultDate: "+7",
+    changeMonth: true,
+    numberOfMonths: 1,
+    // minDate: 0,
+    autoclose:true,
+    // startDate: "today",
+    ignoreReadonly: false,
+    format: 'dd/mm/yyyy',
+    onSelect: function(selectedDate) {
+    var option = this.id == "from" ? "minDate" : "maxDate",
+         instance = $(this).data("datepicker"),
+         date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+        
+     dates.not(this).datepicker("option", option, date);
+   }
+
+ });
+ var start_date = $("#from4").val();
+ var dateToday = new Date();
+ console.log(dateToday)
+ var dates = $("#to4").datepicker({
+     defaultDate: "",
+     changeMonth: true,
+     numberOfMonths: 1,
+     // minDate: 0,
+    autoclose:true,
+    // startDate: "today",
+    ignoreReadonly: false,
+     format: 'dd/mm/yyyy',
+
+     onSelect: function(selectedDate) {
+     var option = this.id == "from" ? "minDate" : "maxDate",
+         instance = $(this).data("datepicker"),
+         date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+     dates.not(this).datepicker("option", option, date);
+ }
+ });
+  $("#to4").datepicker().datepicker("setDate", new Date());
+   var old_date = new Date();
+   old_date.setDate(old_date.getDate() - 7);
+    $("#from4").datepicker().datepicker("setDate", old_date);
+
+  // $(document).ready(function(){
+  //       $("#saurabh").select2();
+  //       $('.nav').removeClass("open");
+  // });
+
+</script>

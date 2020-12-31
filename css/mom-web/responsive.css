@@ -1,0 +1,3368 @@
+.responsive-show {
+	display: none !important;
+}
+.mobile-search {
+	display: none;
+}
+@media (max-width:1600px) {}
+@media (max-width:1400px) {
+	#jqCartViewModel {
+		right: 2%;
+	}
+	.register-as-volunteer:before {
+		background-size: 250px;
+		top: 200px;
+	}
+	.register-as-volunteer:after {
+		background-size: 250px;
+	}
+	.register-as-volunteer:after {
+		top: 200px;
+	}
+}
+@media (max-width:1280px) {
+	.header-text.banner-3-heading {
+		top: 20%;
+	}
+	.header-container {
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.container {
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.top-section {
+		background-size: cover !important;
+	}
+	#jqFacebookLogin .modal-dialog {
+		width: 395px !impoertant;
+	}
+	.model-slider-detail-page .item {
+		width: auto;
+		height: auto;
+	}
+	.model-slider-detail-page a.right.carousel-control {
+		right: 0%;
+	}
+	.model-slider-detail-page a.left.carousel-control {
+		left: -2%;
+	}
+	#jqCartViewModel {
+		right: 16px;
+	}
+	.package-page .list-detail li {
+		margin: 0 .5% 20px !important;
+		width: 31.9%;
+	}
+	.donation-dish li {
+		width: 48% !important;
+	}
+	.register-as-volunteer:before {
+		background-size: 166px;
+		top: 269px;
+	}
+	.register-as-volunteer:after {
+		background-size: 166px;
+		top: 269px;
+	}
+	.volunteer-top-section .d-table {
+		font-size: 50px;
+	}
+	.party-order-top-section .d-table {
+		font-size: 50px;
+	}
+	.ngo-section .d-table {
+		font-size: 50px;
+	}
+	.misrii-initative {
+		font-size: 60px;
+	}
+	.home-header-container {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.food-section .order-success-sec li .right-detail .form-control {
+		padding: 6px 9px;
+	}
+	.food-section .order-success-sec li .right-detail .orange-btn {
+		padding-right: 4px;
+		padding-left: 4px;
+		font-size: 11px;
+	}
+	.career-top-section {
+		background-size: cover;
+		height: 355px;
+	}
+	.rowApp .colApp .appContent .textApp {
+		font-size: 18px;
+	}
+	.colApp {
+		width: 32% !important;
+	}
+	.black-font-text {
+		font-size: 38px;
+		line-height: 42px;
+	}
+	.premium_user_box li {
+		width: 24%;
+	}
+	.food-list-slider .owl-nav {
+		position: absolute;
+		left: 50%;
+		width: 100px;
+		margin-left: -50px;
+	}
+	.food-list-slider .owl-nav .owl-prev {
+		left: inherit;
+	}
+	.food-list-slider .owl-nav .owl-next {
+		right: inherit;
+	}
+	.food-list-slider .owl-nav .owl-prev, .food-list-slider .owl-nav .owl-next {
+		position: initial;
+		border-radius: 0px;
+		width: 40px;
+		margin-top: 0px;
+		height: 40px;
+	}
+	.food-listing-slider-section {
+		padding-bottom: 10px;
+		margin: 15px 0 0;
+	}
+	.food-section .list-detail.v-theme li .img-left img {
+		margin-top: -20px;
+	}
+}
+@media (max-width:1200px) {
+	.black-font-text {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.app-banner-content {
+		padding-left: 55px;
+	}
+	.missed-call-section h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.download-app-banner:before {
+		background-size: 84% 84%;
+		bottom: -80px;
+		left: 23px;
+	}
+	.premium_inner-box h2 {
+		padding: 0 15px 0px 15px;
+		font-size: 14px;
+	}
+	.premium_inner-box {
+		min-height: 190px !important;
+	}
+	.premium_user_box li {
+		width: 23.9%%;
+	}
+	.border-right-c-p {
+		border-right: none;
+		margin-bottom: 15px;
+	}
+	.choosePlan-inner-sec .current {
+		height: 110px;
+	}
+	.choosePlan-inner-sec .margin_top80 {
+		margin-top: 20px !important
+	}
+	.choosePlan-inner-sec .btn-countinue {
+		margin-top: 20px !important
+	}
+	.premium_user_box {
+		padding: 0
+	}
+	.premium_user_box .caption:hover .caption__overlay__content {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.food-section .list-detail li .right-detail .rupee {
+		font-size: 12px;
+		margin-top: 3px;
+	}
+	.food-section .list-detail li .right-detail .rupee.cut-price {
+		font-size: 12px;
+		margin-top: 3px;
+	}
+	.get-extra-benifit .coupon-box {
+		padding: 20px;
+	}
+	.food-section .list-detail li .img-left {
+		width: 130px !important;
+	}
+}
+@media (min-width:992px) and (max-width:1199px) {
+	.tbl-myorder tbody tr td {
+		padding: 25px 6px;
+	}
+	.chef-order {
+		font-size: 12px !important;
+		padding-left: 3px !important;
+		padding-right: 3px !important;
+		text-align: center !important;
+	}
+	.package-page .list-detail li {
+		width: 48% !important;
+	}
+	.package-page .list-detail {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	.donner-name {
+		font-size: 13px;
+	}
+	.donate-top-section {
+		background: url('../img/donate-bg.jpg') no-repeat 50% 50%;
+	}
+	/*.register-as-volunteer:after{background-size:190px !important;top:500px;}*/
+	/*.register-as-volunteer:before{background-size:190px !important;top:220px;}*/
+	.volunteer-top-section .d-table {
+		font-size: 40px;
+	}
+	.party-order-top-section .d-table {
+		font-size: 40px;
+	}
+	.ngo-top-section .d-table {
+		font-size: 40px;
+	}
+	.misrii-initative {
+		font-size: 40px !important;
+	}
+	.carousel-home .d-table {
+		font-size: 38px;
+		line-height: 42px;
+	}
+	.home-banner-table {
+		position: absolute;
+		top: 30px;
+		left: 95px;
+	}
+	.home-banner-table .rows {
+		font-size: 30px;
+	}
+	.home-banner-table .misrii-initative {
+		font-size: 40px;
+	}
+	.food-section .list-detail li .premium {
+		font-size: 11px;
+		padding: 3px 2px;
+	}
+	.position-error-msg {
+		font-size: 12px;
+	}
+	.pkg-select-d-t {
+		width: 55% !important;
+	}
+	.detail-page-seller-name .seller-n-link {
+		width: 125px;
+	}
+	.single-dish-detail .premium-dish {
+		padding: 5px 5px !important;
+	}
+	/*.career-top-section .d-table{top: 73%;left: 38%;}*/
+	.home-banner-table.ramjaan-fest {
+		top: 109px;
+		left: 40px;
+	}
+	.rowApp .colApp .appContent {
+		padding-left: 10px;
+	}
+	.rowApp .colApp .appContent .textApp {
+		font-size: 16px;
+	}
+	.callback-top-section .d-table {
+		font-size: 40px;
+		line-height: 45px;
+		top: 35%;
+	}
+}
+@media (min-width:768px) and (max-width:991px) {
+	.search-section .m-input-group .form-m-input {
+		width: 400px;
+	}
+	.food-section .list-detail li {
+		width: 48%;
+	}
+	.col-sm-9.no-padding-l {
+		width: 100%;
+	}
+	.site-list .list-detail li .right-detail .food-name {
+		font-size: 18px;
+	}
+	.site-list .list-detail li .right-detail .about-food {
+		display: inline-block;
+	}
+	.seller-order-bottom-sec {
+		margin-top: 0 !important;
+	}
+	.single-dish-detail .food-name {
+		font-size: 18px;
+	}
+	.food-reviews-detail-page p {
+		font-size: 13px;
+		margin-bottom: 5px !important;
+	}
+	.single-dish-detail .user-name {
+		font-size: 14px;
+	}
+	.single-dish-detail .premium {
+		font-size: 13px;
+		padding: 5px !important;
+	}
+	.table-res {
+		margin-top: 20px !important;
+	}
+	.order-detail-page .panel-height {
+		margin-top: 20px;
+		min-height: 134px;
+	}
+	.tbl-myorder tbody tr td {
+		padding: 25px 6px;
+	}
+	.list-detail-seller li .right-detail .about-food {
+		height: 38px !important;
+	}
+	.list-detail-seller li .right-detail .location {
+		margin-bottom: 0 !important;
+	}
+	.site-list .filter-food-listing li .right-detail .about-food {
+		height: 22px !important;
+	}
+	.filter-food-listing .get-user-detail span {
+		font-size: 14px;
+	}
+	.filter-food-listing .seller-order-bottom-sec a {
+		padding: 7px;
+	}
+	#jqCartViewModel {
+		right: 16px;
+	}
+	.confirmation-sec p {
+		width: 77%;
+	}
+	.view-detail {
+		padding: 5px 5px !important;
+	}
+	.package-page .list-detail {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	.select-package-btn, .select-date-btn {
+		width: inherit;
+	}
+	.package-page .dishDataBox li .right-detail .food-name {
+		font-size: 14px !important;
+		white-space: nowrap !important;
+	}
+	.radio-btn-lbl .lbl {
+		font-size: 16px;
+	}
+	.food-section .list-detail {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.carousel-seeker ul li {
+		width: 32.5%;
+	}
+	.donner-name {
+		font-size: 13px;
+	}
+	.donate-to-sec .lbl {
+		font-size: 15px;
+	}
+	.per-meal {
+		font-size: 10px;
+	}
+	.chef-order {
+		text-align: center !important;
+	}
+	.social-links a {
+		margin-left: 1px !important;
+	}
+	.footer-links ul li {
+		margin-right: 14px;
+	}
+	.seller-profile-details .list-detail-seller li .right-detail .food-name {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: block;
+	}
+	.seller-profile-details .list-detail-seller li .right-detail .user-name {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: block;
+		width: 100%;
+	}
+	.seller-profile-details .list-detail-seller li .right-detail .location a {
+		margin-top: 0 !important;
+	}
+	.order-and-price {
+		padding-top: 15px;
+	}
+	.register-as-volunteer:after {
+		background-size: 160px !important;
+		top: 382px;
+	}
+	.register-as-volunteer:before {
+		background-size: 160px !important;
+		top: 220px;
+	}
+	.volunteer-top-section .d-table {
+		font-size: 42px;
+	}
+	.volunteer-top-section .misrii-initative {
+		font-size: 44px;
+	}
+	.party-order-top-section .d-table {
+		font-size: 30px;
+	}
+	.ngo-section .d-table {
+		font-size: 30px;
+	}
+	.misrii-initative {
+		font-size: 24px;
+	}
+	.carousel-home .d-table {
+		font-size: 22px;
+		line-height: 29px;
+	}
+	.carousel-home .d-table a {
+		margin-top: 10px;
+	}
+	.header-text.banner-3-heading {
+		top: 26%;
+	}
+	.carousel-home .d-table .border-white-button {
+		margin-top: 10px !important;
+		display: inline-block;
+	}
+	.home-banner-table, .carousel-cell-bg5 .home-banner-table, .carousel-cell-bg3 .home-banner-table {
+		position: absolute;
+		top: 50%;
+		left: 194px;
+		transform: translate(0, -50%);
+	}
+	.carousel-cell-bg5 .home-banner-table .misrii-initative {
+		font-size: 36px !important;
+	}
+	.position-error-msg {
+		font-size: 11px;
+	}
+	.question-ans-servey .font-20 {
+		font-size: 15px !important;
+		font-weight: normal;
+	}
+	.padding-remove-mob .question-ans-servey .radio .lbl {
+		font-size: 14px !important;
+	}
+	.pkg-select-d-t {
+		width: 50% !important;
+	}
+	.plan-your-calender img {
+		width: 85%;
+	}
+	.suggest-recipie-top-section {
+		height: 275px;
+	}
+	.suggest-recipie-top-section .d-table {
+		font-size: 27px;
+		line-height: 35px;
+	}
+	.reffer-reward-top-section .d-table {
+		font-size: 27px;
+		line-height: 35px;
+	}
+	.suggest-recipie-top-section .misrii-initative {
+		font-size: 30px;
+	}
+	.career-top-section, .reffer-reward-top-section {
+		height: 275px;
+	}
+	.reffer-reward-top-section .misrii-initative {
+		font-size: 30px;
+	}
+	.step-img-box {
+		width: 200px;
+		height: 200px;
+	}
+	.step-box:before {
+		top: 138px;
+	}
+	/*.career-top-section .d-table{left: 41%;}*/
+	.step-description {
+		font-size: 18px;
+	}
+	.reffer-reward-top-section .d-table {
+		top: 28%;
+	}
+	/*.home-banner-table {position: absolute;top: 125px;}*/
+	.rowApp .colApp .appImg, .rowApp .colApp .appContent {
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+	.colApp {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	.rowApp .colApp .appContent .textApp {
+		margin-top: 15px;
+	}
+	.qrImg {
+		margin-top: 0;
+	}
+	.rowApp .colApp .appContent .textApp {
+		padding: 0 15px !important;
+		font-size: 16px;
+	}
+	.rowApp .qr-box {
+		margin-top: 20px;
+	}
+	.app-box {
+		padding-left: 11px;
+		padding-right: 11px;
+	}
+	.download-app-banner:before {
+		background-size: 62% 62%;
+		bottom: -202px;
+		left: 44px;
+	}
+	.premium_user_box li {
+		width: 48.5%;
+	}
+	.premium_user_box li:first-child, .premium_user_box li:nth-child(5) {
+		margin-left: 1%;
+	}
+	.premium_inner-box-thanku h2 {
+		padding-bottom: 0;
+	}
+	.premium_user_box-thanku li {
+		margin-top: 0;
+	}
+	.callback-top-section .d-table {
+		font-size: 34px;
+		line-height: 45px;
+		top: 40%;
+	}
+	.home-banner-table .misrii-initative {
+		font-size: 36px !important;
+		line-height: 22px;
+	}
+	.home-banner-table .rows {
+		font-size: 36px;
+	}
+	.home-banner-table .border-white-button {
+		font-size: 18px;
+	}
+}
+@media (max-width:1024px) {
+	.food-section .list-detail.v-theme li .img-left img {
+		margin-top: -10px;
+	}
+}
+@media (max-width:991px) {
+	.top-content-section .header-links .brand-section {
+		display: none;
+	}
+	.misrii-mitr-top-section .d-table {
+		left: 0;
+		transform: translate(10%, -50%);
+	}
+	.package-page .list-detail li {
+		width: 100% !important;
+		margin: 0 0% 20px !important;
+	}
+	.get-extra-benifit .owl-nav .owl-prev {
+		left: -25px;
+	}
+	.callback-top-section {
+		background-position: 70% !important;
+	}
+	.dm-inner .dm-cell .dm-cell-description .first-content {
+		font-size: 22px;
+	}
+	.dm-inner .dm-cell .dm-cell-description {
+		font-size: 17px;
+	}
+	.dm-inner .dm-cell .dm-cell-title {
+		font-size: 30px;
+	}
+}
+@media (max-width:930px) {
+	.certificate-container {
+		width: 920px !important;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+		overflow: auto;
+		overflow-y: hidden;
+		margin: 0 auto;
+		white-space: nowrap
+	}
+	.in-memory-of, .certificate-detail, .memory-line-two {
+		white-space: initial;
+	}
+	.certificate-container {
+		width: 100% !important;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.memory-image img {
+		max-width: 227px !important;
+		width: 227px !important;
+	}
+	.package-page .dishDataBox li .select-package-btn {
+		padding: 4px 3px;
+		font-size: 12px;
+	}
+	.top-main-header .m-input-group .orange-btn {
+		padding: 7px 15px;
+		margin-right: 2px;
+	}
+}
+@media (max-width:860px) {
+	.donors-list li {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.social-links {
+		width: 100%;
+		float: left;
+		padding-top: 10px;
+	}
+	.header-text.banner-3-heading {
+		top: 31%;
+	}
+	.party-order-top-section {
+		float: left;
+		width: 100%;
+		position: relative;
+		max-width: 100%;
+		height: auto;
+		padding: 170px 0;
+		box-sizing: border-box;
+		background-size: cover;
+	}
+	.carousel-cell-bg2, .carousel-cell-bg5 {
+		width: 877px;
+	}
+	.carousel-cell-bg2 .home-banner-table, .carousel-cell-bg5 .home-banner-table {
+		left: 115px
+	}
+	.top-main-header .m-input-group .form-m-input {
+		width: 164px;
+	}
+	.carousel-cell-bg7 .home-banner-table {
+		left: 170px;
+	}
+	.food-section .list-detail.v-theme li .img-left img {
+		margin-top: 0;
+	}
+	/*.home-banner-table, .carousel-cell-bg5 .home-banner-table, .carousel-cell-bg3 .home-banner-table {left: 120px;}*/
+}
+@media (max-width:768px) {
+	.detail-page-seller-name .seller-n-link {
+		width: 112px;
+	}
+}
+@media (max-width:767px) {
+	.cart-multiple-btns-sec .orange-btn {
+		margin: 0px 5px 10px 5px !important;
+		width: 45%;
+		margin: 0px;
+		float: none;
+		display: inline-block;
+		font-size: 13px;
+	}
+	.search-section .m-input-group .form-m-input {
+		width: 250px;
+	}
+	.filter-nav-dish .navbar-brand {
+		float: right !important;
+		margin-top: 0 !important;
+	}
+	.left-filter-menu {
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+		padding: 0;
+	}
+	.filter-nav-dish {
+		margin-bottom: 0 !important;
+	}
+	.food-section .list-detail li {
+		width: 100%;
+		margin: 20px 0 0;
+	}
+	.get-app-right {
+		padding: 0 15px;
+	}
+	.get-fav-section .get-fav-list li {
+		width: 50%;
+	}
+	.get-fav-section {
+		margin-top: 20px;
+	}
+	.main-heading {
+		margin: 0 0 10px;
+		padding-top: 20px;
+	}
+	.meal-box {
+		margin: 30px 0 0;
+	}
+	.main-heading h3 {
+		font-size: 20px;
+	}
+	#jqFacebookLogin .modal-dialog {
+		margin: 15% auto;
+	}
+	#jqLoginModal .modal-dialog, #jqForgotPassModal .modal-dialog {
+		margin: 15% auto;
+	}
+	#jqRegisterModal .modal-dialog, #jqForgotPassModal .modal-dialog {
+		margin: 15% auto;
+	}
+	#jqDishViewModel .modal-dialog {
+		margin: 15% auto;
+		width: 300px !important;
+		min-width: 300px !important
+	}
+	.left-filter-menu {
+		width: 100%;
+	}
+	#dishData {
+		float: left;
+		width: 100%;
+	}
+	.right-containt {
+		margin-left: 0;
+	}
+	.create-meal-box {
+		margin: 20px 0;
+	}
+	.get-app .get-app-right, .get-app .get-app-right .g-a-heading, .get-app .get-app-right .g-a-sub-heading {
+		text-align: center;
+	}
+	.play-store-btn a {
+		float: none !important;
+		min-height: 44px;
+		display: inline-block;
+	}
+	.meal-box-content {
+		font-size: 24px;
+	}
+	.or-devider {
+		width: 70%;
+		float: none;
+		margin: 30px auto;
+	}
+	.top-section .brand-section a img {}
+	.right-detail p {
+		font-size: 14px;
+	}
+	.single-dish-detail.padding30 {
+		padding: 10px !important;
+	}
+	.food-reviews-detail-page .active-icon {
+		width: 15px;
+		height: 15px;
+		background-size: cover;
+		right: 0px;
+		top: 0px;
+	}
+	.about-food-detail .readmore {
+		font-size: 14px;
+	}
+	.get-app .get-app-right .g-a-heading {
+		font-size: 24px;
+	}
+	.get-app .get-app-right .g-a-sub-heading {
+		font-size: 14px;
+	}
+	.site-list .list-detail li .right-detail .food-name {
+		font-size: 18px;
+	}
+	.site-list .list-detail li .right-detail .about-food {
+		display: inline-block;
+	}
+	.top-main-header .m-input-group .form-m-input {
+		width: 250px;
+	}
+	/*.header-container{text-align:center;}*/
+	.header-right-content {
+		text-align: center;
+		margin: 15px 0 0 !important;
+		display: table;
+		/*float:none !important;*/
+	}
+	.home-btn {
+		display: none;
+	}
+	.header-right-content .btn-group {
+		float: left;
+		/*margin-right:6px;*/
+	}
+	.top-main-header .m-input-group .form-m-input {
+		width: 207px;
+	}
+	.account-setting-form {
+		float: left;
+		width: 100%
+	}
+	.left-filter-menu .quick-filter h3, .change-password .panel-heading span {
+		font-size: 18px;
+	}
+	.form-group label, .control-label {
+		font-size: 13px !important;
+	}
+	.account-setting-form .right-containt {
+		margin-top: 20px !important;
+		float: left;
+		width: 100%;
+	}
+	.right-containt {
+		margin-top: 20px !important;
+		float: left;
+		width: 100%;
+	}
+	.tbl-myorder {
+		width: 834px !important;
+	}
+	.panel-dark .panel-body {
+		overflow-x: auto;
+	}
+	.single-dish-detail .food-name {
+		font-size: 18px;
+	}
+	.single-dish-detail .user-name {
+		margin-top: 10px !important
+	}
+	.food-reviews-detail-page {
+		margin-top: 15px;
+	}
+	.single-dish-detail .user-name {
+		font-size: 14px;
+	}
+	.performence-of-month {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	.logo-star {
+		position: absolute;
+		top: -10px;
+		left: 31%;
+	}
+	.performence-font {
+		font-size: 20px;
+	}
+	.left-filter-menu-bg-change {
+		width: 100%;
+	}
+	.seller-img {
+		right: 30px;
+		left: inherit;
+	}
+	#jqCartViewModel {
+		top: 53px;
+		right: 1%;
+	}
+	.list-detail-seller li .right-detail .about-food {
+		height: 38px !important;
+	}
+	.filter-food-listing .location {
+		margin: 0 0 1px 0 !important;
+	}
+	.filter-food-listing .name {
+		font-size: 14px;
+	}
+	.filter-food-listing .seller-order-bottom-sec {
+		margin-top: 0;
+	}
+	.filter-food-listing .about-food {
+		max-width: 300px;
+		white-space: nowrap;
+	}
+	.view-detail {
+		padding: 5px 5px !important;
+	}
+	#jqAddUserAddressModal .modal-dialog {
+		margin: 0 auto;
+		width: 80% !important;
+	}
+	.left-links {
+		width: 100%;
+	}
+	.social-links a:first-child {
+		margin-left: 0;
+	}
+	.top-section .header-links .dropdown-menu li {
+		text-align: left;
+	}
+	.no-dish-msg2 {
+		margin-top: 0 !important;
+	}
+	.volunteers-check {
+		padding-left: 10px !important;
+	}
+	.package-page .list-detail li {
+		width: 48% !important;
+	}
+	.select-package-btn, .select-date-btn {
+		width: inherit;
+	}
+	.donate-top-section {
+		height: 475px;
+	}
+	.donate-top-section .feels-great {
+		font-size: 60px;
+	}
+	.donate-top-section .feels-detail {
+		font-size: 22px;
+	}
+	.donate-main-heading {
+		font-size: 30px;
+	}
+	.dm-inner .dm-cell {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	.dm-inner .dm-cell.padding_right20 {
+		padding-right: 0px !important
+	}
+	.dm-inner .dm-cell.padding_left40 {
+		padding-left: 0px !important
+	}
+	.dm-inner .donate-image {
+		width: 70%;
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+	.responsive-show {
+		display: block !important;
+	}
+	.responsive-hide {
+		display: none !important;
+	}
+	.seeker-logo-list li {
+		width: 50%;
+		margin-bottom: 0;
+	}
+	.seeker-logo-list li a img {
+		width: auto;
+		height: 120px;
+	}
+	.grant-seeker {
+		padding: 40px 0;
+	}
+	.board-inner .nav-tabs li a {
+		height: 85px;
+		width: 85px;
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.tab-heading {
+		font-size: 20px;
+		margin-bottom: 10px !important;
+	}
+	.radio-btn-lbl .lbl {
+		font-family: SourceSansPro-Semibold;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 14px;
+	}
+	.food-section .donation-dish li {
+		width: 48%;
+		margin: 20px 1% 0;
+	}
+	.carousel-seeker ul li {
+		width: 49.5%;
+	}
+	.board-inner .nav-tabs {
+		margin-bottom: 0 !important;
+	}
+	.donate-to-sec .lbl {
+		font-size: 14px;
+	}
+	.donner-name {
+		font-size: 13px;
+	}
+	.donate-food-rs {
+		float: left;
+		text-align: left !important;
+		padding-left: 15px;
+		padding-top: 0px;
+		padding-bottom: 3px;
+	}
+	.donation-dish li .right-detail .food-name {
+		font-size: 14px !important;
+	}
+	.donation-dish li {
+		min-height: 170px !important;
+		max-height: 170px !important;
+	}
+	.donation_food_section .form-group {
+		margin-bottom: 0 !important;
+	}
+	.position-error-msg {
+		top: -45px;
+		right: 0;
+		min-width: 100px;
+		width: auto !important;
+		text-align: center;
+		line-height: 20px;
+	}
+	.position-error-msg:before {
+		left: 45px;
+		top: 36px;
+		-ms-transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+		transform: rotate(-90deg);
+	}
+	.select-meal-error-msg {
+		float: left;
+	}
+	.position-error-msg-num {
+		font-size: 11px !important;
+		line-height: 12px !important;
+	}
+	.order-detail-page .panel-height {
+		min-height: 125px !important;
+	}
+	.order-detail-page .panel-height .panel-body {
+		font-size: 12px !important;
+	}
+	.about-volunteer {
+		font-size: 14px;
+		padding-top: 0;
+	}
+	.volunteer-content strong {
+		font-size: 16px;
+	}
+	.vol-text-l li {
+		font-size: 14px;
+	}
+	.register-as-volunteer:before {
+		opacity: .3;
+	}
+	.register-as-volunteer:after {
+		opacity: .3;
+	}
+	.volunteer-top-section .d-table {
+		font-size: 25px;
+		line-height: 36px;
+	}
+	.party-order-top-section .d-table {
+		font-size: 25px;
+		line-height: 36px;
+	}
+	.ngo-top-section .d-table {
+		font-size: 25px;
+	}
+	.misrii-initative {
+		font-size: 24px;
+	}
+	.ngo-top-section .d-table {
+		font-size: 30px;
+	}
+	.home-banner-slider .owl-buttons {
+		display: none;
+	}
+	.hidden-xs {
+		display: block !important;
+	}
+	.carousel-home .d-table {
+		font-size: 20px !important;
+		line-height: 24px !important;
+	}
+	.carousel-home .carousel-control img {
+		width: 40px !important;
+	}
+	.carousel-home a.right.carousel-control {
+		right: 47px !important;
+	}
+	.border-white-button {
+		border: 2px solid #ffffff;
+		border-radius: 19px;
+		-webkit-border-radius: 19px;
+		padding: 4px 12px;
+		font-size: 14px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.header-text.banner-3-heading {
+		top: 36%;
+	}
+	.what-we-do img {
+		width: 80%;
+	}
+	.slider-btn {
+		font-size: 16px;
+		padding: 10px 25px;
+	}
+	.what-we-do {
+		margin-bottom: 10px;
+	}
+	.package-page .list-detail li {
+		width: 100% !important;
+		margin: 0 0% 20px !important;
+	}
+	.home-banner-table {
+		position: absolute;
+		top: 50% !important;
+		transform: translate(0, -50%);
+	}
+	.home-banner-table .rows {
+		font-size: 25px !important;
+		line-height: 32px !important;
+	}
+	.home-banner-table .misrii-initative.font-39 {
+		font-size: 25px !important;
+		line-height: 32px !important;
+	}
+	.home-banner-table .misrii-initative.font-39 span {
+		font-size: 30px !important;
+	}
+	.home-banner-table .misrii-initative {
+		line-height: 24px;
+		padding: 0;
+	}
+	.visible-xs {
+		display: none !important;
+	}
+	.flickity-prev-next-button, .flickity-prev-next-button.previous {
+		width: 30px;
+		height: 30px;
+	}
+	.carousel-cell-bg2, .carousel-cell-bg5 {
+		width: 838px;
+	}
+	.carousel-cell-bg2 .home-banner-table, .carousel-cell-bg5 .home-banner-table {
+		left: 172px;
+	}
+	.header-links .btn-home-chef {
+		display: none;
+	}
+	.question-ans-servey .font-20 {
+		font-size: 12px !important;
+		font-weight: normal;
+	}
+	.padding-remove-mob .survery-section {
+		padding: 0 !important;
+	}
+	.padding-remove-mob .question-ans-servey .radio .lbl {
+		font-size: 14px !important;
+		line-height: 26px;
+	}
+	.padding-remove-mob .question-div .position-error-msg {
+		min-width: 158px !important;
+		left: 42%;
+		top: -44px;
+	}
+	.padding-left-mob {
+		padding-left: 5%;
+	}
+	.both-side-padding-remove {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.remove-right-padd {
+		padding-right: 0 !important;
+	}
+	.col-sm-1.col-xs-2.remove-right-padd {
+		width: 6.666667% !important;
+	}
+	.package-page .error-message.position-error-msg:before {
+		transform: rotate(0deg);
+	}
+	.package-page .error-message.position-error-msg {
+		margin-right: -100px;
+	}
+	.package-cart-model {
+		width: 80% !important;
+		margin: 20px auto !important;
+	}
+	.right-containt .remove-select-padding .delivery-selectbox {
+		margin-left: 15px !important;
+	}
+	.right-containt .delivery-selectbox .cart-btn {
+		margin-left: 0 !important;
+		float: left !important;
+	}
+	.get-fav-section-package {
+		background-size: cover;
+		min-height: 470px;
+	}
+	.get-heading-cal {
+		font-size: 24px;
+	}
+	.plan-your-meals h2 {
+		font-size: 18px;
+	}
+	.create-your-meals-button {
+		font-size: 16px;
+	}
+	.plan-your-calender {
+		text-align: left;
+		padding-left: 50px;
+		padding-top: 29px;
+		float: left;
+	}
+	.have-coupon {
+		text-align: left !important;
+		width: inherit !important;
+	}
+	.dis-ingr {
+		padding-top: 0 !important;
+	}
+	.carousel-cell-bg7 h3 {
+		font-size: 38px;
+	}
+	.carousel-cell-bg7 .home-banner-table .rows {
+		font-size: 25px !important;
+		line-height: 32px !important;
+	}
+	.carousel-cell-bg7 p {
+		text-align: left;
+	}
+	.carousel-cell-bg7 .home-banner-table {
+		top: 20px;
+	}
+	.carousel-cell-bg7 .home-banner-table {
+		left: 210px;
+	}
+	.order-success-sec li {
+		min-height: 150px !important;
+		max-height: 150px !important;
+	}
+	.food-section .order-success-sec li .right-detail {
+		padding-left: 10px;
+	}
+	.food-section .order-success-sec li .right-detail .orange-btn {
+		margin-top: 10px;
+		width: inherit !important;
+		float: left !important;
+	}
+	.food-section .order-success-sec li .right-detail .rupee {
+		margin-top: 15px;
+	}
+	.food-section .order-success-sec li .img-left {
+		width: 150px !important;
+	}
+	.food-section .order-success-sec li .img-left img {
+		min-height: 150px !important;
+		max-height: 150px !important;
+	}
+	.coupon-list li {
+		width: 30%;
+	}
+	.header-right-content .cart-btn {
+		margin-left: 3px !important;
+	}
+	.top-main-header .btn-group .user-button {
+		padding: 7px 3px;
+	}
+	.top-main-header .m-input-group .orange-btn {
+		margin-right: 0px !important;
+	}
+	.top-main-header .m-input-group {
+		margin-right: 3px;
+	}
+	.sdishlist {
+		margin-top: 0 !important;
+	}
+	.detailForm {
+		float: left;
+	}
+	.detail-page-seller-name .seller-n-link {
+		padding-right: 0px;
+		font-size: 12px;
+		width: 215px !important;
+	}
+	.suggest-recipie-top-section .d-table {
+		font-size: 27px;
+		line-height: 35px;
+	}
+	.reffer-reward-top-section .d-table {
+		font-size: 27px;
+		line-height: 35px;
+	}
+	.suggest-recipie-top-section .misrii-initative {
+		font-size: 30px;
+	}
+	.suggest-recipie-top-section, .career-top-section, .reffer-reward-top-section, .suggest-recipie-top-section {
+		height: 213px;
+		background-position: center center;
+	}
+	.career-top-section {
+		background-position: 100% !important;
+	}
+	.career-top-section .d-table {
+		font-size: 28px;
+	}
+	.step-box:before {
+		display: none;
+	}
+	.step-box {
+		margin-bottom: 30px;
+	}
+	.step-img-box {
+		width: 180px;
+		height: 180px;
+	}
+	.step-description {
+		font-size: 16px;
+		margin-top: 5px;
+	}
+	.step-number {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.faq-listing li {
+		float: left;
+		width: 100%;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.r-as-vol-heading {
+		font-size: 20px;
+	}
+	.faq-refer-earn {
+		padding-top: 0;
+	}
+	.refer_n_earn .career-r-n-r {
+		width: auto !important;
+		margin-top: 0 !important;
+	}
+	.career-box {
+		margin-top: 15px;
+	}
+	.volunteer-form-sec .form-group {
+		padding: 0 !important;
+	}
+	.reffer-reward-top-section .d-table {
+		top: 26%;
+	}
+	.colApp {
+		width: 100% !important;
+		margin: 0 !important;
+		margin: 0 0 15px 0 !important;
+		border: 1px solid #b8b8b8 !important;
+		padding: 15px !important;
+	}
+	.rowApp .colApp .appImg {
+		width: 100%;
+		text-align: center;
+	}
+	.rowApp .colApp .appContent {
+		width: 100%;
+		text-align: center;
+		margin-top: 15px;
+	}
+	.rowApp .colApp .appContent .textInput input {
+		max-width: 600px;
+	}
+	.rowApp img.AppIcon {
+		max-width: 160px;
+		min-height: 52px;
+		margin-right: 5px;
+	}
+	.app-banner-content {
+		min-height: 700px;
+		padding-left: 0;
+	}
+	.download-app-banner:before {
+		position: absolute;
+		content: "";
+		background: url(../img/banner-side-mob.png) no-repeat;
+		width: 219px;
+		height: 260px;
+		left: 50%;
+		bottom: 0;
+		background-size: 100% 100%;
+		z-index: 9;
+		margin-left: -110px;
+	}
+	.download-app-banner .border-white-button {
+		width: 186px;
+		font-size: 20px;
+	}
+	.wrapperappDownload .col-sm-6.col-md-4.col-xs-12 {
+		margin-top: 15px;
+	}
+	.premium_user_box li {
+		width: 48.5%;
+		margin-top: 5px;
+	}
+	.premium_user_box li:first-child, .premium_user_box li:nth-child(5) {
+		margin-left: 1%;
+	}
+	.border-right-c-p {
+		border-right: none;
+		margin-bottom: 15px;
+	}
+	.detail-inner-thanku .detail-inner {
+		padding: 0 !important;
+		margin-top: 20px !important;
+	}
+	.premium_inner-box-thanku img {
+		max-width: 85px;
+	}
+	.premium_inner-box-thanku h2 {
+		padding-bottom: 0;
+	}
+	.premium_inner-box-thanku img {
+		margin-top: 10px;
+	}
+	.premium_inner-box {
+		min-height: 152px !important;
+	}
+	.detail-inner-thanku .premium-benifit-inner {
+		margin-top: 0;
+		padding: 15px 0;
+	}
+	.confirmation-sec-top:before, .confirmation-sec-bottom:before {
+		background-size: 70%;
+	}
+	.confirmation-sec-top {
+		padding-top: 15px !important;
+		padding-left: 80px;
+	}
+	.confirmation-sec-top:before {
+		top: 15px;
+	}
+	.confirmation-sec-bottom {
+		padding-bottom: 15px !important;
+	}
+	.premium-trial-detail-inner {
+		padding-bottom: 0;
+		padding-top: 15px;
+	}
+	.premium_user_box .caption:hover .caption__overlay__content {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.premium-trial-detail .premium-trial-detail-inner {
+		padding-top: 0 !important;
+	}
+	.premium-trial-detail .like-heading, .premium-trial-detail .coupon-heading {
+		padding: 0 15px;
+		font-size: 14px;
+	}
+	.premium-trial-detail .confirmation-sec {
+		padding-bottom: 0 !important;
+	}
+	.premium-trial-detail .detail-inner .verification-msg {
+		padding-bottom: 7px;
+	}
+	.p-detail-tbl-outer {
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	.p-detail-tbl-outer .p-detail-tbl {
+		width: 768px;
+	}
+	.misrii-mitra .franchise-volunteer {
+		padding: 0;
+	}
+	.first-order-modal .close {
+		right: -5px;
+		top: -14px;
+		width: 25px;
+	}
+	.callback-top-section .d-table {
+		font-size: 26px;
+		line-height: 39px;
+		top: 40%;
+	}
+	.package-thumb {
+		max-width: 500px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.food-section .list-detail.v-theme li {
+		width: 48%;
+	}
+	.food-section .list-detail.v-theme li .img-left {
+		max-height: 280px;
+	}
+	.home-offer-slider {
+		padding: 0;
+		width: 100%;
+		float: left;
+	}
+	.home-offer-slider .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.home-offer-slider .col-md-2 {
+		padding-right: 15px !important;
+	}
+	.home-offer-slider .col-md-10 {
+		padding-right: 0 !important;
+	}
+	.home-offer-box {
+		font-size: 20px;
+		height: 52px;
+		line-height: 50px;
+	}
+	.home-banner-table {
+		transform: translate(-50%, -50%);
+		left: 50% !important;
+		text-align: left;
+	}
+}
+@media (max-width:650px) {
+	#colorbox {
+		width: 320px !important;
+		height: 330px !important;
+		left: 50% !important;
+		margin-left: -160px !important;
+	}
+	#cboxWrapper {
+		width: 320px !important;
+		height: 330px !important;
+	}
+	#cboxContent {
+		width: 320px !important;
+		height: 320px !important;
+	}
+	#cboxLoadedContent {
+		width: 310px !important;
+		height: 300px !important;
+		overflow: hidden;
+	}
+	.cboxPhoto {
+		width: 100% !important;
+		height: 100% !important;
+	}
+	.package-page .list-detail li .right-detail .food-name, .package-page .list-detail li .right-detail .rupee {
+		font-size: 14px;
+	}
+	.donate-top-section {
+		background: url(../img/donate-bg.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	.view-all .v-a-button {
+		width: auto !important;
+	}
+	.confirmation-sec span {
+		width: 13%;
+	}
+	.home-header-container {
+		margin-top: 13px;
+	}
+	.header-text {
+		top: 19%;
+	}
+	.header-text.banner-3-heading {
+		top: 16%;
+	}
+	.remove-select-padding {
+		padding: 0 15px !important;
+	}
+	.remove-select-padding .form-group {
+		margin-right: 0 !important;
+	}
+	.rowApp .colApp .appContent .textApp, .qrImg {
+		padding-left: 0 !important;
+	}
+	.premium_inner-box h2 {
+		min-height: 20px;
+	}
+	.premium_inner-box img {
+		max-width: 115px;
+	}
+	.premium_inner-box span {
+		margin: 10px auto;
+	}
+	.premium_user_box .caption:hover .caption__overlay__content {
+		font-size: 15px;
+		line-height: 21px;
+	}
+	.misrii-mitr-top-section .d-table {
+		width: 100%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 0px 50px;
+	}
+	.misii-mitra-banner-sec>span {
+		font-size: 24px;
+	}
+	.misii-mitra-banner-sec>h3 {
+		font-size: 50px;
+	}
+}
+@media (max-width:600px) {
+	.search-section .m-input-group .form-m-input {
+		width: 150px;
+	}
+	.meal-box-content {
+		font-size: 20px;
+	}
+	.seller-order-bottom-sec {
+		margin-top: 0 !important;
+	}
+	.site-list .list-detail li .right-detail .food-name {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin-bottom: 0;
+		width: 100%;
+		padding-right: 15px;
+	}
+	.site-list .list-detail li .right-detail .about-food {
+		margin-top: 0;
+		font-size: 12px;
+		margin-bottom: 0;
+		width: 100%;
+	}
+	.get-food-list h3 {
+		height: inherit;
+	}
+	.top-main-header .m-input-group .orange-btn {
+		padding: 7px;
+	}
+	.top-main-header .login {
+		float: left;
+	}
+	.top-main-header .m-input-group .form-m-input {
+		width: 150px;
+	}
+	/*.search-area-btn{margin-right:0 !important;}*/
+	.top-main-header .search-area-btn .btn {
+		margin-right: 10px;
+	}
+	.search-section .or-text {
+		font-size: 14px;
+		margin: 5px 4px 0;
+	}
+	.old-age-gift li {
+		padding: 0 12px;
+	}
+	.address-label {
+		width: 105px;
+		font-size: 12px;
+	}
+	.address-box address {
+		font-size: 12px;
+	}
+	.orange-btn {
+		font-size: 14px;
+		padding: 7px 5px;
+	}
+	.label-area img {
+		display: block !important;
+		border: none !important;
+		width: inherit !important;
+		height: inherit !important;
+		margin: 5px 0 0 !important;
+		border-radius: 0 !important;
+	}
+	.food-section .donation-dish li {
+		min-height: 125px;
+		max-height: 125px;
+	}
+	.donation-dish li .donate-food-rs {
+		float: none !important;
+		display: inline-block !important;
+		margin: 0 auto !important;
+		padding-left: 0 !important;
+	}
+	.col-sm-5.text-right.padding_top5.padding_right5.no-padding-l {
+		text-align: center !important;
+	}
+	.seller-order-bottom-sec {
+		margin-top: 10px !important;
+	}
+	.site-list .list-detail li .right-detail .location .rupee {
+		font-size: 16px !important;
+	}
+	.site-list .list-detail li {
+		min-height: 160px;
+		max-height: 160px;
+	}
+	.seller-profile-details .list-detail li .right-detail .user-name {
+		font-size: 14px !important;
+		margin-bottom: 0;
+		word-wrap: break-word;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		width: 100%;
+	}
+	.seller-profile-details .list-detail li .right-detail .about-food {
+		height: 35px !important;
+	}
+	.seller-profile-details .list-detail li .right-detail .location {
+		margin-bottom: 5px !important;
+	}
+	.seller-profile-details .list-detail li .right-detail .location .premium {
+		margin-top: 0 !important;
+	}
+	.seller-profile-details .list-detail li .right-detail .order-and-price .rate-rupee {
+		font-size: 14px !important;
+		margin-top: 10px;
+	}
+	.seller-profile-details .list-detail li {
+		min-height: 175px;
+		max-height: 175px;
+	}
+	.order-and-price .orange-btn {
+		margin-top: 5px !important;
+	}
+	.food-section .donation-dish li {
+		width: 100% !important;
+	}
+	.thank-u-text {
+		font-size: 30px;
+	}
+	.order-success-btns span {
+		font-size: 14px !important;
+	}
+	.dotted-line {
+		font-size: 14px;
+	}
+	.confirmation-sec span img {
+		max-width: 100%;
+	}
+	.your-detail .detail-inner .verification-msg {
+		padding: 0 10px;
+		font-size: 14px;
+	}
+	.volunteer-top-section {
+		float: left;
+		width: 100%;
+		background: url(../img/volunteer-banner.jpg) no-repeat 100% 100%;
+		position: relative;
+		max-width: 100%;
+		height: auto;
+		padding: 100px 0;
+		box-sizing: border-box;
+		background-size: cover;
+	}
+	.party-order-top-section {
+		float: left;
+		width: 100%;
+		position: relative;
+		max-width: 100%;
+		height: auto;
+		padding: 100px 0;
+		box-sizing: border-box;
+		background-size: cover;
+	}
+	.ngo-top-section {
+		float: left;
+		width: 100%;
+		background: url(../img/volunteer-banner.jpg) no-repeat 100% 100%;
+		position: relative;
+		max-width: 100%;
+		height: auto;
+		padding: 100px 0;
+		box-sizing: border-box;
+		background-size: cover !important;
+	}
+	.volunteer-top-section .d-table {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.party-order-top-section .d-table {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.ngo-top-section .d-table {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.misrii-initative {
+		font-size: 25px;
+	}
+	.banner-3-heading {
+		top: 15% !important;
+	}
+	.carousel-cell-bg2, .carousel-cell-bg5 {
+		width: 760px;
+	}
+	.donate-footer .get-started-now {
+		font-size: 24px;
+	}
+	.carousel-cell-bg7 h3 {
+		font-size: 30px !important;
+	}
+	.carousel-cell-bg7 .home-banner-table .rows {
+		font-size: 25px !important;
+		line-height: 27px !important;
+	}
+	.carousel-cell-bg7 p {
+		font-size: 16px;
+	}
+	.carousel-cell-bg7 .home-banner-table {
+		left: 270px;
+	}
+	.filter-food-listing .name {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		padding-right: 15px;
+		max-width: 140px;
+	}
+	.order-and-price-s-d .orange-btn {
+		margin-top: 0 !important;
+	}
+	.coupon-list li {
+		width: 40%;
+	}
+	.filter-food-listing .filter-bottom-sec {
+		margin-top: 5px !important;
+	}
+	.peremium-user-banner-title {
+		font-size: 26px;
+	}
+	.peremium-user-banner-con {
+		bottom: 32px;
+	}
+	.rupee-subs {
+		font-size: 26px;
+		margin-top: 12px;
+	}
+	.year-subs, .sec-subs-right {
+		font-size: 18px;
+	}
+	.confirmation-sec-top, .confirmation-sec-bottom {
+		font-size: 14px;
+	}
+	.premium_user_box .caption__overlay__title {
+		font-size: 16px;
+	}
+	.premium_user_box .caption:hover .caption__overlay__content {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.footer-logo {
+		text-align: center;
+	}
+	.donate-area-btn {
+		width: 100%;
+	}
+	.misrii-mitr-top-section .d-table {
+		width: 100%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 0px 15px;
+	}
+	.all-orange-btn .orange-btn {
+		margin: 0 0 10px 0;
+	}
+	.callback-top-section {
+		background-position: 80% !important;
+	}
+}
+@media (max-width:550px) {
+	.review-scroll {
+		overflow: scroll;
+		overflow-y: hidden;
+	}
+	.review-order-tbl {
+		min-width: 550px;
+	}
+	.seeker-logo-list {
+		margin-top: 30px;
+	}
+	.seeker-logo-list li a img {
+		width: 100%;
+		height: auto;
+	}
+	.package-page .list-detail.dishDataBox .selected-package {
+		width: 100% !important;
+		margin: 0 0 20px !important;
+	}
+	.package-page .list-detail.dishDataBox .selected-package .food-name {
+		max-width: auto !important;
+	}
+	.package-page .list-detail.dishDataBox .selected-package .rupee {
+		margin: 0 auto;
+	}
+	.totalSection .continue-button {
+		padding: 8px 0px !important;
+		font-size: 12px;
+	}
+	.totalSection .continue-button i {
+		font-size: 12px !important;
+	}
+	.site-list .list-detail li .right-detail .food-name {
+		font-size: 14px;
+	}
+	.get-food-list h3 {
+		line-height: 14px !important;
+	}
+	.site-list .list-detail li .right-detail .location .premium {
+		margin-top: 0 !important;
+	}
+	.filter-food-listing .name {
+		font-size: 12px;
+		line-height: 12px;
+	}
+	.site-list .list-detail li .right-detail .user-img {
+		width: 30px;
+		height: 30px;
+	}
+	.filter-food-listing .seller-order-bottom-sec {
+		margin-top: 5px !important;
+	}
+	.filter-food-listing .seller-order-bottom-sec .orange-btn {
+		padding: 5px !important;
+		font-size: 12px !important;
+		float: left !important;
+		margin-top: 5px !important;
+	}
+	.seller-order-bottom-sec .pull-left {
+		width: 100%;
+	}
+	.get-user-detail {
+		float: left !important;
+	}
+	.site-list .list-detail li .right-detail .user-img {
+		display: none;
+	}
+	.get-user-detail {
+		float: left !important;
+		padding-top: 0 !important;
+	}
+	.seller-profile-details .list-detail li .right-detail .user-name {
+		font-size: 12px !important;
+		font-family: 'SourceSansPro-Regular';
+		font-weight: 600;
+		padding-top: 3px;
+	}
+	.dotted-line {
+		padding-bottom: 0;
+	}
+	.top-section .brand-section a img {
+		display: none;
+	}
+	.package-page .dishDataBox li, .package-page .dishDataBox li .img-left {
+		min-height: 132px !important;
+		max-height: 132px !important;
+	}
+	.carousel-cell-bg2 .home-banner-table, .carousel-cell-bg5 .home-banner-table {
+		left: 100px;
+	}
+	.carousel-cell-bg2, .carousel-cell-bg5 {
+		width: 618px;
+	}
+	.top-main-header .btn-group .user-button {
+		padding: 7px 5px;
+	}
+	.top-main-header .search-area-btn .btn {
+		margin-right: 5px;
+	}
+	/*.home-btn{margin-right: 5px !important;}
+.cart-btn{margin-left: 5px !important;}*/
+	.top-main-header .m-input-group .form-m-input {
+		width: 100px;
+	}
+	.career-top-section .misrii-initative {
+		font-size: 20px;
+	}
+	/*.career-top-section .d-table{top: 70%;}*/
+	.career-top-section {
+		background-size: cover;
+	}
+	.left-refer-your-known span {
+		font-size: 15px;
+	}
+	.btnInvite {
+		padding: 7px 4px;
+		font-size: 14px;
+		width: 85px;
+		margin-top: 5px;
+	}
+	.download-app-banner {
+		padding-top: 20px;
+	}
+	.black-font-text, .missed-call-section h2 {
+		font-size: 24px;
+		line-height: 28px;
+		padding: 0 15px;
+	}
+	.download-app-banner:before {
+		bottom: 45px;
+	}
+}
+@media (max-width:480px) {
+	.search-section .m-input-group .form-m-input {
+		width: 189px;
+		float: left;
+		height: 25px !important;
+		font-size: 12px;
+		padding: 6px 12px 6px 12px;
+	}
+	.search-section .m-input-group .btn:before {
+		content: "\f002";
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: inherit;
+		color: #fff;
+		font-size: 15px;
+		padding-right: 0.5em;
+		position: absolute;
+		top: 7px;
+		left: 8px;
+	}
+	.search-section .m-input-group .input-icon {
+		top: 5px;
+		display: none;
+	}
+	.search-section .display-inline .quick-search .btn-default {
+		padding: 4px;
+		float: none;
+		display: block;
+		margin: 0 auto;
+		font-size: 12px;
+	}
+	.search-section .m-input-group .btn {
+		padding: 4px 0px;
+		float: left;
+		color: #ff781c;
+		position: relative;
+		font-size: 10px;
+		/* line-height: 2; */
+		/* margin-bottom: 5px; */
+		height: 34px;
+	}
+	.search-section .quick-search {
+		float: left;
+		text-align: center;
+		margin-top: 5px;
+		margin-right: 8px;
+	}
+	.search-section .or-text {
+		width: 100%;
+		margin: 5px 0;
+	}
+	.search-section .pull-right {
+		margin-top: 5px;
+	}
+	.search-section .m-input-group {
+		float: none;
+	}
+	.social-links a:first-child {
+		margin-left: 0;
+	}
+	.get-app .app-mobile img {
+		width: 100%;
+	}
+	.food-section .seccess-add-dish li .right-detail .food-name {
+		padding: 0px 20px 0 0;
+	}
+	.get-fav-section .get-fav-list li {
+		min-height: 170px;
+		width: 100%;
+	}
+	#jqFacebookLogin .modal-dialog {
+		width: 95% !important;
+		min-width: 95% !important;
+	}
+	#jqLoginModal .modal-dialog {
+		width: 95% !important;
+		min-width: 95% !important;
+	}
+	#jqRegisterModal .modal-dialog {
+		width: 95% !important;
+		min-width: 95% !important;
+	}
+	.bg-fb-btn {
+		font-size: 16px;
+	}
+	.top-main-header .m-input-group {
+		float: none;
+		margin-bottom: 10px;
+	}
+	.top-main-header .m-input-group .btn {
+		margin-right: 0;
+	}
+	.cart-btn {
+		float: none;
+	}
+	.search-area-btn {
+		margin-right: 5px !important;
+	}
+	.food-section .list-detail li {
+		text-align: left;
+		/*min-height:138px;max-height:138px;*/
+	}
+	.food-section .list-detail li .right-detail .food-name {
+		font-size: 14px;
+	}
+	.top-section {
+		background-size: cover !important;
+		padding-top: 10px;
+	}
+	.top-section .brand-section {
+		margin-top: 10px !important;
+	}
+	.site-list .list-detail li .right-detail .food-name {
+		max-width: 220px;
+	}
+	.old-age-gift li {
+		margin-top: 15px;
+		width: 100%;
+	}
+	.place-order-list hr {
+		margin-bottom: 0 !important;
+	}
+	.your-order-list .yol-heading {
+		font-size: 15px;
+	}
+	.your-order-list table tbody tr td span {
+		font-size: 14px !important;
+	}
+	.steps {
+		float: none;
+		width: auto;
+		margin: 50px auto !important;
+		max-width: 310px;
+		display: table;
+		ma
+	}
+	.steps .steps-inner {
+		width: 100%;
+	}
+	.steps .steps-inner .st-inn {
+		width: 94px;
+	}
+	.steps .steps-inner .st-inn.selected .st-text {
+		font-size: 13px;
+	}
+	.view-all .v-a-button {
+		width: 60%;
+	}
+	.review-order-list .table tr td:last-child {
+		font-size: 14px;
+	}
+	.your-order-list .table tr td {
+		font-size: 16px;
+	}
+	.site-list .list-detail-seller li .right-detail .food-name {
+		max-width: inherit;
+	}
+	.steps .steps-inner .st-inn .st-text {
+		font-size: 12px;
+	}
+	.bhoechie-tab-menu, .bhoechie-tab {
+		width: 100% !important;
+	}
+	.payment-method .list-group a {
+		min-height: 85px;
+	}
+	.search-section .or-text {
+		display: none;
+	}
+	.main-heading h3 {
+		text-align: center;
+	}
+	.main-heading p {
+		text-align: center;
+	}
+	.food-section .list-detail li .right-detail .user-name {
+		margin-top: 0;
+		border-bottom: 1px solid #ddd;
+		font-size: 12px;
+		padding: 3px 0;
+	}
+	.Popular-chefs .chef-order {
+		float: none !important;
+	}
+	#jqCartViewModel .modal-dialog {
+		width: 320px !important;
+		min-width: 320px !important;
+	}
+	#jqForgotPassModal .modal-dialog {
+		width: 320px !important;
+		min-width: 320px !important;
+	}
+	.top-main-header .search-area-btn {
+		display: none;
+	}
+	.top-main-header .m-input-group .input-icon {
+		left: -36px;
+		background: #ff781c;
+		color: #fff;
+		height: 31px;
+		width: 35px;
+		line-height: 31px;
+		top: 0;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+	.header-right-content .cart-btn {
+		float: right !important;
+	}
+	.del_address {
+		width: 50%;
+		line-height: 30px !important;
+		margin-bottom: 0;
+	}
+	.play-store-btn a {
+		/*width:100%;*/
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.footer-logo {
+		text-align: center;
+	}
+	.footer-links ul li {
+		float: none;
+		display: inline-block;
+	}
+	.left-links {
+		display: block;
+		float: none !important;
+		text-align: center;
+		width: 100%;
+	}
+	.social-links {
+		display: block;
+		float: none;
+		text-align: center;
+	}
+	.social-links a {
+		display: inline-block;
+		float: none;
+	}
+	.get-fav-section .get-heading {
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 20px;
+	}
+	.header-right-content .search-area-btn .login {
+		float: left !important;
+	}
+	div.bhoechie-tab-content {
+		padding-left: 0;
+	}
+	.footer-links ul li a {
+		font-size: 12px;
+	}
+	.address-box {
+		min-height: inherit !important;
+	}
+	.search-section {
+		padding: 5px 15px;
+	}
+	.meal-box-content {
+		font-size: 18px;
+		padding: 10px 15px;
+	}
+	.chef-img-left .user-img {
+		bottom: 0px;
+		right: 0px;
+	}
+	.chef-img-left .user-img img {
+		width: 30px !important;
+		height: 30px;
+		border: 1px solid #ccc;
+	}
+	.search-section .quick-search .dropdown-menu {
+		left: 50%;
+		margin-left: -80px;
+		margin-top: 5px;
+	}
+	.search-section .quick-search.open .btn-default.dropdown-toggle {
+		border-bottom: 1px solid #fff !important;
+	}
+	.food-detail-link {
+		padding: 0px;
+		padding-right: 40px !important;
+	}
+	/*.header-right-content{width:100%;}*/
+	.top-main-header .m-input-group.search-area {
+		float: left;
+		display: inline-block;
+		margin-bottom: 5px;
+		position: relative;
+	}
+	.top-main-header .m-input-group .form-m-input {
+		width: 100%;
+		padding-left: 6px !important;
+	}
+	.main-footer {
+		text-align: center;
+	}
+	.footer-links ul {
+		float: none;
+		display: inline-block;
+	}
+	.main-footer .social-links a {
+		float: none;
+		display: inline-block;
+	}
+	.single-dish-detail .food-name {
+		font-size: 17px;
+	}
+	.food-reviews-detail-page .premium {
+		padding: 2px 10px;
+	}
+	.about-food-detail .readmore {
+		font-size: 13px;
+	}
+	.single-dish-detail .food-reviews .premium-dish {
+		padding: 3px 3px !important;
+		margin-top: 10px !important;
+	}
+	.main-heading h3 {
+		font-size: 18px;
+	}
+	.main-heading p {
+		font-size: 14px;
+	}
+	.main-heading {
+		text-align: center;
+	}
+	.play-store-btn a img {
+		/*width:30%;*/
+	}
+	.play-store-btn a {
+		margin-right: 5px !important;
+	}
+	.get-app .get-app-right .g-a-heading {
+		font-size: 20px;
+	}
+	.Popular-chefs .list-detail li .right-detail {
+		margin-top: 0 !important;
+	}
+	.Popular-chefs .list-detail li .right-detail .food-name {
+		margin-top: 0 !important;
+	}
+	.site-list .list-detail li .right-detail .location .rupee {
+		font-size: 16px;
+	}
+	.gift {
+		font-size: 13px;
+	}
+	.bhoechie-tab-menu .list-group-item {
+		width: 33.3%;
+		float: left;
+		padding: 5px;
+		font-size: 12px;
+		min-height: 82px;
+		border-left: none;
+	}
+	.bhoechie-tab-menu .list-group-item:first-child {
+		border-bottom: none;
+		border-top: none;
+	}
+	.bhoechie-tab-menu .list-group-item:nth-child(2) {
+		border-bottom: none;
+		border-top: none;
+	}
+	.bhoechie-tab-menu .list-group-item:nth-child(3) {
+		border-bottom: none;
+		border-radius: none;
+	}
+	.bhoechie-tab-menu .list-group-item:nth-child(6) {
+		border-radius: none;
+	}
+	div.bhoechie-tab-menu div.list-group>a.active:after {
+		display: none;
+	}
+	.bhoechie-tab-menu-payment .list-group-item {
+		width: 50%
+	}
+	.bhoechie-tab-menu-payment .list-group-item:first-child {
+		border-bottom: 1px solid #e4e4e4 !important;
+		border-top: none;
+	}
+	.bhoechie-tab-menu-payment .list-group-item:nth-child(2) {
+		border-bottom: 1px solid #e4e4e4;
+		border-top: none;
+	}
+	.quick-search.open ul {
+		left: 35%;
+	}
+	.survey-heading {
+		font-size: 14px;
+	}
+	.filter-food-listing .name {
+		overflow: hidden;
+		white-space: nowrap !important;
+		text-overflow: ellipsis;
+		max-width: 175px;
+	}
+	.donate-top-section .donate-logo a img {
+		width: 140px;
+	}
+	.donors-list li img {
+		width: 110px;
+	}
+	.donate-footer .get-started-now {
+		font-size: 22px;
+		padding: 12px 30px;
+	}
+	.dm-inner .dm-cell .dm-cell-description {
+		font-size: 20px;
+	}
+	.grant-seeker .seeker-description {
+		font-size: 20px;
+	}
+	.grant-seeker .seeker-heading {
+		font-size: 22px;
+	}
+	.honorable-donors .donors-description {
+		font-size: 20px;
+	}
+	.honorable-donors .donors-heading {
+		font-size: 22px;
+	}
+	.board-inner .nav-tabs li a {
+		height: 60px;
+		width: 60px;
+		font-size: 14px;
+	}
+	span.round-tabs {
+		top: 38%;
+	}
+	.input-custom-donation input {
+		width: 100%;
+	}
+	.carousel-seeker ul li {
+		width: 100%;
+	}
+	.carousel-seeker .donate-boxs .lbl {
+		font-size: 14px;
+	}
+	.donate-area-btn {
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+		display: block;
+		border-top: 1px solid #3c3f46;
+		padding-top: 20px
+	}
+	.donate-area-btn .donate-to-misrii {
+		margin: 0 auto;
+		display: inline-block;
+		float: right !important;
+	}
+	.donate-to-sec .lbl {
+		font-size: 12px;
+	}
+	.donner-name {
+		font-size: 11px;
+	}
+	.food-section .list-detail li .right-detail .order-now {
+		padding: 3px 5px;
+	}
+	.header-links .green-btn {
+		padding: 7px !important;
+	}
+	.site-list .list-detail li .right-detail .location {
+		padding: 5px 0 0px !important;
+	}
+	.package-page .list-detail.dishDataBox .selected-package .food-name {
+		padding-right: 10px;
+	}
+	.shopping-cart-tbl thead tr td {
+		font-size: 12px !important;
+	}
+	.site-list .list-detail li .img-left {
+		width: 150px;
+	}
+	.seller-profile-details .list-detail li .right-detail .location {
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+	}
+	.order-address-details {
+		overflow: scroll;
+		overflow-y: hidden
+	}
+	.order-address-details table-layout:;
+		{
+		min-width: 480px;
+	}
+	.thank-u-text {
+		font-size: 25px;
+	}
+	.call-contact {
+		margin-top: 10px;
+	}
+	.register-as-volunteer:before {
+		opacity: .2;
+	}
+	.register-as-volunteer:after {
+		opacity: .2;
+	}
+	.carousel-home .d-table {
+		font-size: 16px !important;
+		line-height: 19px !important;
+	}
+	.carousel-home .d-table a {
+		padding: 4px 5px !important;
+		font-size: 12px;
+	}
+	.btn-home-chef {
+		margin-top: 0 !important;
+	}
+	.misrii-initative {
+		font-size: 18px;
+	}
+	.volunteer-top-section .misrii-initative {
+		font-size: 22px;
+	}
+	.register-as-volunteer:before, .register-as-volunteer:after {
+		width: 300px;
+	}
+	.volunteer-content .custom-width {
+		width: 100% !important;
+	}
+	.site-list .listing-filter-dish li .right-detail .location {
+		padding: 5px 0 5px !important;
+	}
+	.feels-detail-app {
+		font-size: 18px !important;
+	}
+	.feels-great-app {
+		font-size: 46px !important;
+	}
+	.what-we-do img {
+		width: 100%;
+	}
+	.grant-seeker {
+		height: 515px;
+	}
+	.premium {
+		margin-top: 0 !important;
+		margin-left: 0 !important;
+		padding: 3px !important;
+	}
+	.home-banner-table {
+		/*left:10% !important;*/
+	}
+	.carousel-cell-bg2 .home-banner-table, .carousel-cell-bg5 .home-banner-table {
+		width: 50%;
+	}
+	.carousel-cell-bg2 .home-banner-table, .carousel-cell-bg5 .home-banner-table {
+		left: 150px;
+	}
+	.carousel-cell-bg5 .home-banner-table {
+		top: 140px;
+	}
+	.home-banner-table {
+		top: 83px;
+	}
+	.boundery-model {
+		margin: 10px;
+	}
+	.coupon_code_apply_box .subtotal-price-border td {
+		font-size: 12px !important;
+		text-align: left !important;
+	}
+	.col-sm-1.col-xs-2.remove-right-padd {
+		width: 16.666667% !important;
+	}
+	.padding-left-mob {
+		padding-left: 14%;
+	}
+	.package-cart-model {
+		width: 98% !important;
+	}
+	.left-perform {
+		width: 100%;
+	}
+	.quick-img {
+		width: 200px;
+		margin: 0 auto;
+	}
+	.header-container .header-right-content .btn-group .dropdown-menu {
+		left: 0 !important;
+		right: inherit !important;
+	}
+	.get-fav-section-package {
+		min-height: 395px;
+	}
+	.get-heading-cal {
+		font-size: 18px;
+		text-align: center !important;
+	}
+	.plan-your-meals h2 {
+		font-size: 14px;
+		text-align: center;
+		padding: 0 10px;
+	}
+	.create-your-meals-button {
+		font-size: 16px;
+		display: inline-block;
+		margin: 0 auto;
+		float: none;
+	}
+	.plan-your-calender {
+		padding-left: 0 !important;
+		text-align: center;
+		display: block;
+		width: 100%;
+	}
+	.plan-your-calender img {
+		width: 80%;
+	}
+	.plan-your-meals {
+		padding-left: 0px;
+	}
+	.coupon-code-setting .form-control {
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+		font-size: 12px;
+		font-weight: normal;
+	}
+	.search-text {
+		display: none;
+	}
+	.search-icon {
+		display: block !important;
+	}
+	.mobile-s-icon:hover {
+		color: #ff781c !important;
+		background: #ff781c !important;
+	}
+	.search-section {
+		padding: 5px 15px 0 15px !important;
+	}
+	h3.tittle-wthree{
+		font-size: 1.3em;
+	}
+	.home-btn {
+		display: none;
+	}
+	.carousel-cell-bg7 .home-banner-table {
+		left: 340px;
+		width: 30% !important;
+	}
+	.carousel-cell-bg7 h3 {
+		font-size: 25px;
+	}
+	/*.carousel-cell-bg7 .home-banner-table .rows{font-size:20px !important;line-height:22px !important;}*/
+	.carousel-cell-bg7 p {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.donate-area-btn .btn {
+		font-size: 12px;
+	}
+	.coupon-list li {
+		width: 65%;
+		padding-left: 0;
+	}
+	.top-main-header .m-input-group .form-m-input {
+		display: none;
+	}
+	.top-main-header .m-input-group .input-icon {
+		display: none;
+	}
+	.search-show {
+		display: block !important;
+	}
+	.mobile-search.showSearch {
+		display: block;
+	}
+	.mobile-search {
+		float: left;
+		width: 100%;
+		padding: 8px 15px;
+		background: #ff781c;
+		position: relative;
+	}
+	.mobile-search input {
+		width: 100%;
+		padding: 0 10px;
+		height: 32px;
+		border: 1px solid #ddd;
+		border-radius: 2px;
+	}
+	.search-hide {
+		position: absolute;
+		right: 20px;
+		top: 7px;
+		font-weight: 800;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	.site-list .list-detail li .right-detail .loc-filter {
+		padding-bottom: 5px !important;
+	}
+	.site-list .list-detail li .right-detail .active-icon {
+		top: 3px;
+		right: 3px;
+	}
+	.site-list .list-detail li .right-detail .location .rupee {
+		font-size: 12px !important;
+	}
+	.site-list .list-detail li .right-detail {
+		padding: 6px 10px;
+	}
+	.filter-food-listing .m-seller-name, .filter-food-listing .m-seller-name .name {
+		width: 100% !important;
+	}
+	.filter-order-now {
+		float: left !important;
+		margin-top: 5px;
+	}
+	.store-by h3 {
+		text-align: center;
+	}
+	.seller-profile-banner {
+		min-height: 135px;
+	}
+	.detail-page-seller-name .seller-n-link {
+		padding-right: 0px;
+		font-size: 12px;
+		width: 170px !important;
+	}
+	.detail-page-seller-name {
+		padding-left: 3px !important;
+		display: inline-block;
+	}
+	.wizard-step-description {
+		font-size: 14px;
+	}
+	.misrii-filter-listing .list-detail li .img-left img {
+		max-height: 160px;
+	}
+	.order-summary-table table thead tr td strong, .order-summary-table table tbody tr td strong, .order-summary-table table tbody tr td span, .order-summary-table table tbody tr .text-center {
+		color: #303030 !important;
+		font-size: 11px;
+		font-family: 'SourceSansPro-Regular';
+	}
+	.suggest-recipie-top-section .misrii-initative {
+		font-size: 22px;
+	}
+	.suggest-recipie-top-section .d-table {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.reffer-reward-top-section .d-table {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.career-top-section {
+		background-position: center center;
+	}
+	.promo-heading {
+		font-size: 13px;
+	}
+	.promocode-model .modal-body {
+		padding: 0 !important;
+	}
+	.apply-promobtn {
+		padding: 4px 5px !important;
+		font-size: 12px !important;
+	}
+	.home-banner-table {
+		position: absolute;
+		top: 156px;
+	}
+	.textApp {
+		font-size: 15px;
+	}
+	.premium_user_box li {
+		width: 100%;
+		margin-left: 0;
+	}
+	.peremium-user-banner-title {
+		font-size: 20px;
+	}
+	.choosePlan-inner-sec {
+		padding: 10px;
+	}
+	.plan-checkbox {
+		width: 300px;
+		background-size: 300px;
+		padding-left: 85px;
+		height: 110px;
+	}
+	.rupee-subs {
+		margin-top: 16px;
+		font-size: 20px;
+	}
+	.premium_inner-box {
+		min-height: 270px;
+	}
+	.premium_user_box li:first-child, .premium_user_box li:nth-child(5) {
+		margin-left: 0;
+	}
+	.verification-msg-thank {
+		font-size: 14px !important;
+		margin-bottom: 5px !important;
+	}
+	.dotted-line-thank {
+		width: 100% !important;
+		padding: 10px !important;
+	}
+	.detail-inner-thanku .order-success-btns span {
+		margin-top: 0 !important;
+	}
+	.back-to-home-btn, .order-more-btn {
+		margin: 10px 5px;
+	}
+	.peremium-user-banner-con img {
+		max-width: 100%;
+	}
+	.confirmation-sec-top:before, .confirmation-sec-bottom:before {
+		display: none;
+	}
+	.confirmation-sec-top {
+		padding-left: 0;
+		text-align: center !important;
+	}
+	.confirmation-sec-bottom {
+		padding-right: 0;
+		text-align: center;
+	}
+	.confirmation-section {
+		padding: 10px 40px;
+	}
+	.premium_user_box .caption:hover .caption__overlay__content {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.premium-benifit-inner p {
+		padding: 0;
+	}
+	.mo-number-btn {
+		display: none;
+	}
+	.misii-mitra-banner-sec>span {
+		font-size: 20px;
+	}
+	.misii-mitra-banner-sec>h3 {
+		font-size: 40px;
+	}
+	.misii-mitra-banner-sec> {
+		font-size: 28px;
+	}
+	.misii-mitra-banner-sec a {
+		width: 50%;
+		float: left;
+		padding: 0px;
+	}
+	.misii-mitra-banner-sec {
+		width: 100%;
+		float: left;
+		padding: 15px 30px;
+	}
+	.misii-mitra-banner-sec a img {
+		width: 95%;
+	}
+	.home-main-carousel .owl-nav:before {
+		left: -10%;
+	}
+	.home-main-carousel .owl-nav:after {
+		right: -10%;
+	}
+	.home-banner-table, .carousel-cell-bg5 .home-banner-table, .carousel-cell-bg3 .home-banner-table {
+		left: 50px;
+	}
+	.home-banner-table {
+		transform: translate(-37%, -50%);
+	}
+	.carousel-cell-bg5 .home-banner-table {
+		left: 45% !important;
+	}
+	.carousel-cell-bg4 .home-banner-table {
+		max-width: 400px;
+	}
+	.carousel-cell-bg7 .home-banner-table {
+		left: 45% !important;
+	}
+	.home-offer-box {
+		border-radius: 5px;
+	}
+}
+@media (max-width:440px) {
+	.site-list .list-detail li .right-detail .location .rupee {
+		width: 100% !important;
+	}
+	.banner-3-heading {
+		top: 5% !important;
+	}
+	.seller-profile-details .list-detail li .right-detail .location {
+		padding: 5px 0 5px !important;
+	}
+	.order-and-price .orange-btn {
+		margin-top: 0 !important;
+	}
+	.listing-filter-dish .seller-order-bottom-sec {
+		margin-top: 2px !important;
+	}
+	.carousel-cell-bg2 .home-banner-table, .carousel-cell-bg5 .home-banner-table {
+		left: 175px;
+	}
+	.table-res .panel-dark .pull-right {
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.table-res .panel-dark .pull-right a {
+		margin: 0 auto;
+		float: none !important;
+	}
+	.detail-page-seller-name .seller-n-link {
+		width: 166px !important;
+	}
+	.missed-call-section {
+		padding: 15px 0;
+	}
+	.black-font-text, .missed-call-section h2 {
+		margin: 0;
+	}
+	.app-donwnload-btn a {
+		margin-right: 0 !important;
+		display: block;
+		margin-top: 10px;
+	}
+	.download-app-banner:before {
+		bottom: 0;
+	}
+	.cart-multiple-btns-sec .orange-btn {
+		margin: 0px 0px 10px 0px !important;
+		width: 100%;
+		float: left;
+		font-size: 13px;
+	}
+}
+@media (max-width: 420px) {
+	.home-banner-table {
+		transform: translate(-34%, -50%);
+	}
+	.carousel-cell-bg2 .home-banner-table {
+		left: 40% !important;
+	}
+	.carousel-cell-bg4 .home-banner-table {
+		left: 46% !important;
+	}
+	.carousel-cell-bg4 .home-banner-table {
+		max-width: 340px;
+	}
+}
+@media (max-width: 400px) {
+	.food-section .list-detail.v-theme li {
+		width: 98%;
+	}
+	.food-section .list-detail.v-theme li .img-left {
+		max-height: 260px;
+	}
+	.home-banner-table {
+		transform: translate(-32%, -50%);
+	}
+}
+@media (max-width:380px) {
+	.top-section .search-section .m-input-group {
+		margin-right: 0 !important;
+	}
+	.m-input-group .orange-btn {
+		margin-top: 0px;
+	}
+	.search-area .m-input-group .orange-btn {
+		margin-top: 0 !important;
+	}
+	.del_address {
+		width: 100%;
+		text-align: center;
+	}
+	.add-new-address {
+		float: none !important;
+		margin: 0 auto;
+	}
+	.delivery-add-header, .yol-heading {
+		text-align: center;
+	}
+	#colorbox {
+		width: 300px !important;
+		height: 310px !important;
+		left: 50% !important;
+		margin-left: -150px !important;
+	}
+	#cboxWrapper {
+		width: 300px !important;
+		height: 310px !important;
+	}
+	#cboxContent {
+		width: 300px !important;
+		height: 300px !important;
+	}
+	#cboxLoadedContent {
+		width: 290px !important;
+		height: 280px !important;
+		overflow: hidden;
+	}
+	.donate-top-section .feels-great {
+		font-size: 50px;
+	}
+	.donate-memory {
+		padding: 50px 0;
+	}
+	.donate-main-heading {
+		font-size: 22px;
+	}
+	.donors-list li {
+		width: 100%;
+	}
+	.board-inner .nav-tabs li a {
+		height: 52px;
+		width: 52px;
+		font-size: 13px;
+	}
+	span.round-tabs {
+		top: 33%;
+	}
+	.donner-name {
+		padding-left: 0 !important;
+	}
+	.food-section .donation-dish li {
+		width: 100% !important;
+	}
+	.header-links .green-btn {
+		font-size: 11px !important;
+		padding: 7px 4px !important;
+	}
+	.top-section .header-links .btn-group button {
+		font-size: 11px;
+		padding: 4px;
+	}
+	.cart-btn {
+		width: 31px !important;
+		margin-left: 5px !important;
+	}
+	.package-page .list-detail.dishDataBox .selected-package {
+		width: 100% !important;
+		margin: 0 0 20px !important;
+	}
+	.food-section .list-detail li .img-left {
+		width: 110px;
+		position: relative;
+	}
+	.food-section .list-detail li .img-left a {
+		float: left;
+		width: 110px;
+		height: 150px;
+		overflow: hidden;
+		position: relative;
+	}
+	.food-section .list-detail li .img-left a img {
+		position: absolute;
+		left: 50%;
+		margin-left: -66%;
+	}
+	.food-detail-link {
+		padding: 0px 22px 0 0;
+	}
+	.Popular-chefs .list-detail li {
+		min-height: 225px !important;
+		max-height: 225px !important;
+	}
+	.Popular-chefs .list-detail li .chef-img-left {
+		width: 100% !important;
+	}
+	.Popular-chefs .list-detail li .chef-img-left img {
+		margin: 5px auto;
+		display: block;
+		height: 130px;
+		width: 130px;
+		border: 3px solid #ff781c;
+		border-radius: 100%;
+	}
+	.Popular-chefs .list-detail li .right-detail .food-name {
+		text-align: center;
+	}
+	.Popular-chefs .list-detail li .right-detail span {
+		text-align: center;
+	}
+	.site-list .list-detail li .img-left {
+		width: 140px;
+		position: relative;
+	}
+	.misrii-filter-listing .list-detail li .img-left img {
+		max-height: 158px;
+	}
+	.food-section .list-detail .selected-package .img-left {
+		width: 130px !important;
+	}
+	.food-section .list-detail .selected-package .img-left a {
+		width: 130px !important;
+	}
+	.address-box-detail {
+		width: 100% !important;
+	}
+	.confirmation-sec span {
+		width: 100%;
+	}
+	.confirmation-sec p {
+		width: 100%;
+		text-align: center !important;
+	}
+	.confirmation-sec span img {
+		max-width: 18%;
+		margin: 0 auto;
+		display: block;
+	}
+	.carousel-home .carousel-control {
+		display: none;
+	}
+	.carousel-home .carousel-indicators {
+		bottom: -13px;
+	}
+	.carousel-home .d-table {
+		font-size: 14px !important;
+		line-height: 18px !important;
+	}
+	.header-text {
+		top: 5%;
+	}
+	.misrii-initative {
+		font-size: 15px !important;
+	}
+	.carousel-home .d-table a {
+		padding: 3px 4px !important;
+		font-size: 12px;
+		margin-top: 1px;
+	}
+	.btn-home-chef {
+		padding: 7px;
+		font-size: 12px;
+	}
+	.donate-area-btn .donate-to-misrii {
+		font-size: 12px;
+	}
+	.donate-area-btn .donate-to-misrii {
+		font-size: 12px;
+		margin: 10px auto !important;
+		display: inline-block;
+		float: none !important;
+	}
+	.donate-area-btn .btn-home-chef {
+		font-size: 12px;
+		float: none !important;
+		margin: 10px auto !important;
+	}
+	.volunteer-top-section .misrii-initative {
+		font-size: 22px !important;
+	}
+	.slider-btn {
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+	.home-banner-table {
+		left: 385px;
+	}
+	.carousel-cell-bg2 .home-banner-table, .carousel-cell-bg5 .home-banner-table {
+		left: 194px;
+	}
+	.padding-remove-mob .question-div .position-error-msg {
+		left: 15%;
+		top: -39px;
+	}
+	.search-section .m-input-group .form-m-input {
+		width: 280px;
+		float: left;
+		height: 35px !important;
+		font-size: 14px;
+		padding-left: 10px;
+	}
+	.sectitle {
+		font-size: 1.3em;
+	}
+	.food-section .order-success-sec li .img-left {
+		width: 110px !important;
+		position: relative !important;
+		float: left;
+		width: 110px;
+		height: 150px;
+		overflow: hidden;
+		position: relative;
+	}
+	.food-section .order-success-sec li .img-left img {
+		position: absolute !important;
+		left: 50% !important;
+		margin-left: -66% !important;
+		width: auto !important;
+	}
+	.misrii-filter-listing .list-detail li .img-left img {
+		position: absolute;
+		left: 50%;
+		width: inherit;
+		margin-left: -62%;
+		top: 0;
+	}
+	.site-list .list-detail li .right-detail {
+		padding: 10px 5px !important;
+	}
+	.premium {
+		padding: 3px 3px !important;
+		font-size: 10px;
+	}
+	.site-list .list-detail li .right-detail .food-name {
+		font-size: 13px;
+		line-height: 12px;
+	}
+	.site-list .list-detail li .right-detail .about-food {
+		line-height: 12px;
+	}
+	.site-list .list-detail li .right-detail .food-name {
+		padding-right: 25px !important;
+	}
+	.sellerDishname .food-detail-link {
+		padding-right: 0px !important;
+	}
+	.detail-page-seller-name .seller-n-link {
+		width: 145px !important;
+	}
+	.food-section.package-page .list-detail li .img-left a .slctPkg-img {
+		margin-left: -50%;
+	}
+	.play-store-btn a {
+		margin-right: 0px !important;
+	}
+	.refer-your-known {
+		bottom: -73px;
+	}
+	.career-refer_n_earn {
+		top: 92px;
+	}
+	.left-refer-your-known, .left-refer-your-known.col-md-2.col-sm-2.col-xs-2 {
+		width: 100% !important;
+		text-align: center;
+	}
+	.btnInvite {
+		float: none;
+	}
+	.faq-refer-earn {
+		margin-top: 25px;
+	}
+	.career-form-sec {
+		margin-top: 100px;
+	}
+	.reffer-reward-top-section .d-table {
+		top: 38%;
+	}
+	/*.qrImg  img{width: 100%;}*/
+	.appImg {
+		width: 100%;
+		text-align: center;
+	}
+	.textApp {
+		text-align: center;
+		margin-top: 10px;
+	}
+	.submitBtnApp {
+		text-align: center;
+	}
+	.appContent {
+		text-align: center;
+		padding-left: 0;
+		width: 100%;
+	}
+	.wrapperappDownload .col-sm-6.col-md-4.col-xs-12 {
+		margin-top: 15px;
+		border: 1px solid #ddd;
+		padding: 15px;
+		border-radius: 4px;
+	}
+	.wrapperappDownload {
+		text-align: center;
+		padding-bottom: 0;
+	}
+	.play-store a {
+		float: none !important;
+		margin: 5px auto;
+		margin-right: 0 !important;
+		display: inline-block;
+	}
+	.wrapperappDownload h3 {
+		padding-bottom: 20px;
+	}
+	.rupee-subs {
+		font-size: 14px;
+		margin-top: 13px;
+	}
+	.rupee-subs i {
+		font-size: 12px;
+	}
+	.plan-checkbox {
+		width: 250px;
+		background-size: 250px;
+		padding-left: 65px;
+		height: 85px !important;
+	}
+	.year-subs, .sec-subs-right {
+		font-size: 13px;
+	}
+	.donate-area-btn .donate-to-misrii {
+		float: none !important;
+		margin: 10px auto !important;
+		display: table;
+	}
+	.premium_user_box .caption:hover .caption__overlay__content {
+		font-size: 15px;
+		line-height: 21px;
+	}
+}
+@media (max-width:360px) {
+	.home-banner-table, .carousel-cell-bg2 .home-banner-table {
+		transform: translate(-29%, -50%);
+		max-width: 250px;
+		left: 45% !important;
+	}
+	.carousel-cell-bg4 .home-banner-table {
+		max-width: 250px;
+		left: 45% !important;
+	}
+	.home-banner-table .rows, .home-banner-table .misrii-initative.font-39 {
+		font-size: 20px !important;
+		line-height: 28px !important;
+	}
+	.home-banner-table .misrii-initative.font-39 span {
+		font-size: 24px;
+	}
+}
+@media (max-width:340px) {
+	#jqCartViewModel {
+		right: -1%;
+	}
+	#jqCartViewModel .modal-dialog {
+		width: 290px !important;
+		min-width: 290px !important;
+	}
+	#jqCartViewModel .modal-dialog .jq_main_cart {
+		padding: 5px !important;
+	}
+	.single-dish-detail .food-reviews .premium-dish {
+		padding: 3px 5px !important;
+	}
+	.single-dish-detail .food-reviews span.pull-right.padding_left10.padding_top10 a {
+		font-size: 12px;
+	}
+	.top-section .brand-section {
+		margin-left: 0;
+	}
+	.detail-page-seller-name .seller-n-link {
+		max-width: 116px;
+	}
+	.plan-checkbox {
+		padding-top: 16px;
+	}
+}
+@media (max-width:330px) {
+	.header-container .home-logo img {
+		width: 50px;
+	}
+	.header-right-content {
+		margin-top: 9px !important;
+	}
+}

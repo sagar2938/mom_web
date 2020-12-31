@@ -1,0 +1,34 @@
+.content-appearing > .wrapper {
+  -webkit-transform: rotateY(0deg) translateX(0);
+  transform: rotateY(0deg) translateX(0);
+  opacity: 1;
+}
+
+#loading-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: rgba(255, 255, 255, 0.8);
+  /*url("../images/background.jpg")*/
+}
+
+#loading-bar:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #20b9ae;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  animation: rotate 425ms infinite linear;
+  -o-animation: rotate 425ms infinite linear;
+  -ms-animation: rotate 425ms infinite linear;
+  -webkit-animation: rotate 425ms infinite linear;
+  -moz-animation: rotate 425ms infinite linear;
+}

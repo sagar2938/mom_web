@@ -1,0 +1,9 @@
+[{"id":1,"product_name":"Expert PHP","product_details":"Best PHP Tutorial provided"},
+{"id":2,"product_name":"Demo Expert PHP","product_details":"Demo"},
+{"id":3,"product_name":"Home Page","product_details":"Expert PHP Home Page"},
+{"id":4,"product_name":"Articles","product_details":"Best PHP Articles"},
+{"id":5,"product_name":"Tutorial","product_details":"Best PHP Tutorial"},
+{"id":6,"product_name":"Category","product_details":"Category"},
+{"id":7,"product_name":"Tag","product_details":"Tags"},
+{"id":8,"product_name":"AngularJS","product_details":"AngularJS"},
+{"id":9,"product_name":"Module","product_details":"Pagination, Searching with Sorting"}]

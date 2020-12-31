@@ -1,0 +1,15 @@
+.jk-rating-stars-container .button {
+  cursor: pointer;
+}
+.jk-rating-stars-container .button .material-icons {
+  font-size: 30px;
+}
+.jk-rating-stars-container .star-button {
+  text-shadow: 0.06em 0.04em #000;
+}
+.jk-rating-stars-container .star-button.star-on .material-icons {
+  color: #ee9a00;
+}
+.jk-rating-stars-container .star-button.star-off .material-icons {
+  color: #ddd;
+}

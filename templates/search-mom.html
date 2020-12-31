@@ -1,0 +1,247 @@
+<link rel="stylesheet" type="text/css" href="css/search-html.css">
+<link rel="stylesheet" type="text/css" href="css/new-web.css">
+<style type="text/css">
+	._2vcsD, ._26Tu- {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+ .datepicker-container{
+  display: none;
+}
+
+._26Tu- {
+    border-bottom: 1px solid rgba(40,44,63,.1);
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+._27rWP {
+    padding: 0;
+    background: #fff;
+    height: 48px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(40,44,63,.2);
+}
+._2jZQP {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    padding-right: 13px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+._9PuZ_:first-child {
+    padding-left: 16px;
+}
+._3WyyG {
+    font-size: 1.1rem;
+    line-height: 20px;
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    border: none;
+    overflow: hidden;
+    font-family: inherit;
+    color: inherit;
+    background: inherit;
+    vertical-align: middle;
+    font-weight: 500;
+}
+._1a6p_ {
+    color: #686b78;
+    font-size: 18px;
+    height: 18px;
+}
+._9PuZ_ {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+    padding-left: 4px;
+}
+._14JyF {
+    position: fixed;
+    left: 0;
+    top: 65;
+    width: calc(100% - 32px);
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    margin: 16px;
+    border: 1px solid rgba(40,44,63,.3);
+    border-radius: 3px;
+}
+._2BJMh{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+._108BW{
+    width: 1000px;
+}
+
+@media (max-width: 754px) {
+  
+._2BJMh {
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+
+._2BJMh {
+    /*border: 0;*/
+    font-size: 13px;
+    color: #282c3f;
+    font-weight: 500;
+    padding: 20px 15px 20px 52px;
+    margin: 0;
+    margin-left: 10px;
+    width: 40%;
+    outline: none;
+    height: 68px;
+    line-height: 1.3em;
+    caret-color: #fc8019;
+    text-transform: capitalize;
+}
+
+}
+._1HEuF{
+    width: 295px;
+}
+.Qe2QU{
+    height: 380px;
+}
+</style>
+<div class="nDVxx">
+	<div class="_1LkiC">
+		<div>
+			<div class="_3eNnq">
+				<div class="_38pEg">
+					<i class="icon-magnifier _1F77L"></i><input autocomplete="off" class="_2BJMh" placeholder="Search for MOMCHEF or dishes " type="text" value="" ng-model="query[queryBy]">
+					<!-- <a href="#!/main/home">
+					<button class="_2Tyn1"><i class="icon-close-thin _3pIVC"></i><span class="py3n3">ESC</span></button>
+					</a> -->
+				</div>
+			</div>
+
+                <div class="_23oa6">
+                    <div class="EiD4d">
+                        <div class="_108BW">
+                            <div class="_2yTju">
+                                <div class="row">
+                                    <div class="_3XX_A col-md-4 Qe2QU"  ng-repeat="toprated in topratedList | filter:query" style="margin-bottom: 10px;">
+                                        <a href="" class="_1j_Yo col-md-12" ng-click="getVenderData(toprated.id,toprated.mobile,toprated.fisrtName,toprated.middleName,toprated.lastName,toprated.description,toprated.rating,toprated.specialization,toprated.image,toprated.address, toprated.mobile,toprated.flag,toprated.latitude,toprated.longitude)">
+                                          <div class="_1HEuF">
+                                            <div class="_3FR5S" >
+                                              <div class="efp8s" ng-if="toprated.image_name != ''">
+                                                <img class="_2tuBw _12_oN" alt="Indian tandoori chicken" width="254" height="160" src="{{toprated.image}}{{toprated.image_name}}" ></div>
+                                                <div class="efp8s" ng-if="toprated.image_name == ''">
+                                                    <img class="_2tuBw _12_oN" alt="Indian tandoori chicken" src="images/food_vendor.png">
+                                                </div>
+                                                <div class="_3Ztcd">
+                                                  <div class="nA6kb">{{toprated.fisrtName}} {{toprated.middleName}} {{toprated.lastName}}</div>
+                                                  <div class="nA6kb">{{toprated.specialization}}</div>
+                                                </div>
+                                                <div class="_3Mn31">
+                                                   <div class="_9uwBC wY0my">
+                                                      <span class="icon-star _537e4"></span><span>{{toprated.rating}}</span>
+                                                  </div>
+                                                    <div class="_3Mn31">
+                                                          <div><span style="padding-right: 6px;color: orange"><i class="fa fa-clock-o" aria-hidden="true"></i></span>{{toprated.estimateTime}}</div>
+                                                      </div>
+                                                </div>
+                                                    </div>
+                                                    <div class="_3B2qG"><span role="button" aria-label="Open" class="_2ECk4 _24tlh">Quick View</span></div></div>
+                                                  </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div style="margin-bottom: 40px;" ng-repeat="toprated in topratedList | filter:query">
+      <a class="MJ8mb _19il5 _11Vk3" href="/#!/main/get-vendor-list?id={{toprated.id}}&&mobile={{toprated.mobile}}" id="mobile_version_list">
+      <div class="_1iWtn hga1y" style="background: rgb(251, 238, 215);"  ng-click="getVenderData(toprated.id,toprated.fisrtName,toprated.middleName,toprated.lastName,toprated.description,toprated.rating,toprated.specialization,toprated.image)">
+        <div class="_2MwzB" style="background-image: url({{toprated.image}}{{toprated.image_name}});"></div>
+        <div>
+          <div class="E70NU" style="background: rgb(58, 60, 65); color: rgb(255, 255, 255); border-color: rgb(30, 32, 35) transparent;">
+            <div class="_1sJOt">
+              Promoted
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="_2Ssn1">
+        <div class="_2ng_F">
+          {{toprated.fisrtName}} {{toprated.middleName}} {{toprated.lastName}}
+        </div>
+        <div class="_3Fork">
+          <div class="_7xBuY">
+           {{toprated.specialization}}
+          </div>
+        </div>
+        <div class="_2OqRc">
+          <div class="_1iiS5">
+            <!-- <i class="icon-offer _1_9TV"></i> -->
+            <div class="_3TJm4">
+              <!-- 60% off | Use coupon WELCOME60 -->
+            </div>
+          </div>
+        </div>
+        <div class="_2llmt">
+          <div class="_1GE0T">
+            <span class="_1aApz icon-star"></span><span class="_14_EP">{{toprated.rating}}</span>
+          </div><span class="_3OCQu"></span>
+          <div class="_3OWMR">
+            <!-- 41 MINS -->
+          </div><span class="_3OCQu"></span>
+          <div class="_1865K">
+            <div><span style="padding-right: 6px;color: orange"><i class="fa fa-clock-o" aria-hidden="true"></i></span>{{toprated.estimateTime}}</div>
+            <!-- <span class="_2k-2j">400 FOR TWO</span> -->
+          </div>
+        </div>
+      </div>
+      <div>
+        <div></div>
+      </div></a>
+    </div>
+		</div>
+	</div>
+</div>
+<div class="_36_in BLngO"><div class="_27rWP _14JyF"><form><div class="_2jZQP"><div class="_9PuZ_"><input type="text" class="_3WyyG" placeholder="Search for restaurants and food" value="" autofocus=""></div><div class="_1a6p_"><span class="icon-magnifier"></span></div></div><input type="submit" hidden=""></form></div></div>
+<div class="modal" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal"
+                style="position: absolute;top: -16px;right: -16px;cursor: pointer;height: 32px;width: 32px;background: #fff;border-radius: 16px;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);border: 1px solid #e7eceb;text-align: center;font-size: 0px;opacity: 1;z-index:10"
+                ng-click="modal_dis()"><img src="images/close.png" style="height: 30px"></button>
+            <div class="modal-body">
+                <div class="row">
+                  <div class="col-md-12">
+                        <div class="">
+                            <div class="">
+                                <h4 style="text-align: left;font-weight: 700"><img src="images/favicon.png">Sorry for inconvenience
+                                </h4>
+                                <p>Sorry this MOM is not serving any order now. Please select tha another MOM the proceed.</p>
+                                <button aria-hidden="true" class="close" data-dismiss="modal"
+                                    type="button" style="color:orange;opacity: 1" >Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

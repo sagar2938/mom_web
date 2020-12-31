@@ -1,0 +1,129 @@
+/*.top-menu-header li.ui-tabmenuitem a.active span.ui-menuitem-text{
+        background-color: red;
+   }*/
+  .nav li a.active span{
+    background-color: #fff;
+    
+  }
+  .top-menu-header li.ui-tabmenuitem a.active span.ui-menuitem-text{
+    color:#69696b !important;
+  }
+ 
+@media only screen and (max-device-width:480px){
+        
+        .top-menu-header{
+            display:block;
+        }
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+    }
+ 
+
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    margin-top: 60px;
+    transition: 0.5s;
+    
+}
+
+
+ 
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    z-index: 9999;
+}
+
+.super{
+float: left;
+ padding-left:20px;
+ padding-top: 8px;
+ color: #ffffff;
+ display:none;
+}
+@media screen and (max-width:720px) {
+  .super{
+ 
+ display:block;
+} 
+
+.hideen{
+ display:none;
+}
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.navbar-default {
+    background-color: #4e88c7;
+    border-color: #e7e7e7;
+}
+.navbar{
+    padding-top: -2%;
+    padding-bottom: -2%;
+    position: relative;
+    min-height: 40px;
+    padding: 1px 0;
+    margin: 0;
+    border: 0;
+}
+
+a:hover, a:focus{
+    background-color: #fff;
+}
+a{
+    color: #fff;
+}
+
+.nav li a.active{
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (min-width: 768px){
+    .navbar-nav > li > a{
+        border-radius: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar{
+        margin-bottom: 1px;
+    }    
+}
+.navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a.active{
+    color: #777;
+}
+.navbar-default .navbar-nav>li>a.focus{
+    color: #fff;
+}
+
+.navbar-collapse{
+    padding-left: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+color: #333333;
+background-color: rgb(255, 255, 255);
+}
+.RecruterInfer{
+    margin-top: -1%;
+}

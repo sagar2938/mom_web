@@ -1,0 +1,101 @@
+
+<link rel="stylesheet" type="text/css" href="css/offer-apply.css">
+<style type="text/css">
+	._9uwBC {
+    height: 20px;
+     width: 99px; 
+    padding: 0 5px;
+    font-weight: 400;
+}
+.topnav a{
+	padding: 25px 25px;
+}
+</style>
+<div class="nDVxx">
+	<div class="_1KWU-" >
+		
+	<div class="_2QhOV">
+		<div>
+			<div class="_26Tu-">
+				<div class="_1uMsL">
+					 MOMCHEF
+				</div>
+			</div>
+			<div class="MZy1T row">
+				<div class="_3XX_A" ng-repeat="offer in offerList">
+					<a class="_1j_Yo">
+					<div class="_1HEuF">
+						<div class="_3FR5S">
+							<div class="efp8s"><img alt="Vaishno Raju Dhaba" class="_2tuBw _12_oN" height="160" src="{{offer.image}}" width="254"></div>
+							<div class="_3Ztcd">
+								<div class="nA6kb">
+									{{offer.offer_name}}
+								</div>
+								<div class="_1gURR" title="North Indian, Chinese, Fast Food">
+									{{offer.offer_type}}
+								</div>
+								<div class="_1gURR" title="North Indian, Chinese, Fast Food">
+									{{offer.pvalues}}
+								</div>
+								
+							</div>
+							<div class="_3Mn31">
+								<div class="_9uwBC ">
+									<span>Use Promo Code</span>
+								</div>
+								<div class="nVWSi _9uwBC _2lAlc">
+									{{offer.promocode}}
+								</div>
+							</div>
+						</div>
+					</div></a>
+				</div>
+			</div>			
+			<div class="_1rEk5" ng-repeat="offer in offerList">
+				<a class="MJ8mb" href="">
+				<div class="_1iWtn hga1y" style="background: rgb(229, 241, 211);">
+					<div class="_2MwzB" style="background-image: url({{offer.image}});"></div>
+					<div></div>
+				</div>
+				<div class="_2Ssn1">
+					<div class="_2ng_F">
+						{{offer.offer_name}}
+					</div>
+					<div class="_3Fork">
+						<div class="_7xBuY">
+							{{offer.offer_type}}
+						</div>
+					</div>
+					<div class="_3Fork">
+						<div class="_7xBuY">
+							{{offer.pvalues}}
+						</div>
+					</div>
+					
+					<div class="_2OqRc">
+						<div class="_1iiS5">
+							<div class="_3TJm4">
+								Use coupon <span style="background-color: #db7c38;color: #fff;padding: 5px">{{offer.promocode}}</span>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="_2llmt">
+						<div class="_1GE0T">
+							<span class="_1aApz icon-star"></span><span class="_14_EP">4.4</span>
+						</div><span class="_3OCQu"></span>
+						<div class="_3OWMR">
+							35 MINS
+						</div><span class="_3OCQu"></span>
+						<div class="_1865K">
+							<span class="_2k-2j">400 FOR TWO</span>
+						</div>
+					</div> -->
+				</div>
+				<div>
+					<div></div>
+				</div></a>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>

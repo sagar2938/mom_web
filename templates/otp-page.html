@@ -1,0 +1,195 @@
+ <style type="text/css">
+      .dash-left {
+    display: none;
+}
+.div{
+  padding: 14px
+}
+.modal input{
+  width: 50px;
+}
+#dialog{
+  text-align: center;
+}
+#form input{
+  width: 50px;
+  float: none;
+  text-align: center;
+}
+select{
+    height: 39px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    background-color: white;
+}
+
+.sign-up{
+ /* height: 39px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid lightgray;*/
+    clear: none !important;
+
+    border: solid 1px #888f97;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    /* float: left; */
+    /* clear: both; */
+     width: 66% !important; 
+    margin: 0;
+    height: 40px;
+    background-color: #f5f5f5;
+    object-fit: contain;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #212121!important;
+    padding: 11px;
+    line-height: 1.43;
+}
+.icon_back{
+  padding-right: 10px;
+}
+.box {
+    border-radius: .4rem;
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+}
+#form input {
+    width: 58px;
+    height: 50px;
+    float: none;
+    text-align: center;
+}
+@media (max-width: 754px) {
+  .container{
+    width: auto !important;
+  }
+  #form input{
+    width: 57px;
+  }
+}
+</style>
+ </style>
+ <div class="login-form-bg h-100">
+        <div class="container h-100">
+            <div class="row justify-content-center h-100">
+                <div class="col-xl-5">
+                    <div class="form-input-content">
+                        <div class="card login-form mb-0" style="border: 1px solid lightgray;">
+                            <div class="card-body pt-5">
+                                <a class="text-center" href="index.html"> 
+                                   <h4><img src="images/logo-text.png" alt="" style="height: 40px;"></h4>
+                                 <h4>You Deserve Better</h4>
+                                 <h4><span class="span_head">Quick</span><span class="dot"></span><span class="span_head">Affordable</span>  <span class="dot"></span><span class="span_head">Trusted</span> </h4>
+
+
+                                </a>        
+                                <form class="mt-5 mb-5 login-input" style="text-align: center;">
+                                    <div class="col-md-12" style="background-color: white;padding: 3%">
+                                          <div id="wrapper">
+                                            <div id="dialog">
+                                              <h5>Enter verification code</h5><span>We have sent you a 4 digit verification code</span>
+                                              <p ng-show="wrongotp" style="font-size: 12px; color: red; text-align: center">Wrong OTP!!!</p>
+                                              <h5>{{mobile}}</h5>
+                                              <div id="form" style="padding: 2%">
+                                                <input id="n1" class="box" max="9" maxlength="1" min="0" pattern="[0-9]{1}" size="1" type="text"> 
+                                                <input id="n2" class="box" max="9" maxlength="1" min="0" pattern="[0-9]{1}" size="1" type="text">
+                                                <input id="n3" class="box" max="9" maxlength="1" min="0" pattern="[0-9]{1}" size="1" type="text">
+                                                <input id="n4" class="box" max="9" maxlength="1" min="0" pattern="[0-9]{1}" size="1" type="text">
+                                              </div>
+                                              <div>
+                                                <!-- <button class="btn btn-primary btn-embossed" ng-click="OTP()">Validate OTP</button> -->
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <a href="" ng-click="resendOtp()" style="color: #e96129;border-bottom: 1px solid;">Resend OTP</a>
+                                        </div>                                        
+                                        <div class="col-md-3"></div>
+                                        <button class="btn login-form__btn submit w-100" ng-click="OTP()" style="width: 50% !important">Validate OTP</button>
+                                    </form>
+                                <!-- <p class="mt-5 login-form__footer">Dont have account? <a href="#!/register" class="text-primary">Sign Up</a> now</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+    $(function () {
+        $(".field-wrapper .field-placeholder").on("click", function () {
+            $(this).closest(".field-wrapper").find("input").focus();
+        });
+        $(".field-wrapper input").on("keyup", function () {
+            var value = $.trim($(this).val());
+            if (value) {
+                $(this).closest(".field-wrapper").addClass("hasValue");
+            } else {
+                $(this).closest(".field-wrapper").removeClass("hasValue");
+            }
+        });
+    });
+</script>
+<script>
+    function myFunction() {
+    'use strict';
+
+    var body = $('body');
+
+    function goToNextInput(e) {
+      var key = e.which,
+        t = $(e.target),
+        sib = t.next('input');
+
+      if (key != 9 && (key < 48 || key > 57)) {
+        e.preventDefault();
+        return false;
+      }
+
+      if (key === 9) {
+        return true;
+      }
+
+      if (!sib || !sib.length) {
+        sib = body.find('input').eq(0);
+      }
+      sib.select().focus();
+    }
+
+    function onKeyDown(e) {
+      var key = e.which;
+
+      if (key === 9 || (key >= 48 && key <= 57)) {
+        return true;
+      }
+
+      e.preventDefault();
+      return false;
+    }
+
+    function onFocus(e) {
+      $(e.target).select();
+    }
+
+    body.on('keyup', 'input', goToNextInput);
+    body.on('keydown', 'input', onKeyDown);
+    body.on('click', 'input', onFocus);
+
+    }
+    </script>
+    <script type="text/javascript">
+      $(".box").keyup(function () {
+    if (this.value.length == this.maxLength) {
+      var $next = $(this).next('.box');
+      if ($next.length)
+          $(this).next('.box').focus();
+      else
+          $(this).blur();
+    }
+});
+    </script>

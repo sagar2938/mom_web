@@ -1,0 +1,195 @@
+<style type="text/css">
+  .card {
+    margin-bottom: 11px;
+     border: 1px solid lightgray; 
+    border-radius: 0.625rem;
+    box-shadow: 6px 11px 41px -28px #f3f3f9;
+}
+
+@media (max-width: 754px) {
+  .container{
+    width: auto !important;
+  }
+}
+</style>
+<div class="login-form-bg h-100">
+        <div class="container h-100">
+            <div class="row justify-content-center h-100">
+                <div class="col-xl-5">
+                    <div class="form-input-content">
+                        <div class="card login-form mb-0">
+                            <div class="card-body pt-5">
+                                <a class="text-center"> 
+                                   <h4><img src="images/logo-text.png" alt="" style="height: 40px;"></h4>
+                                 <h4>You Deserve Better</h4>
+                                 <h4><span class="span_head">Quick</span><span class="dot"></span><span class="span_head">Affordable</span>  <span class="dot"></span><span class="span_head">Trusted</span> </h4>
+                                </a>        
+                                <form class="mt-5 mb-5 login-input">
+                                    <div class="field-wrapper form-group">
+                                        <input type="tel" name="phone_no" id="user_mobile" maxlength="10">
+                                        <div class="field-placeholder"><span>Enter Your Mobile No</span></div>
+                                    </div>
+                                    <!-- <div id="map"></div> -->
+                                    <!-- <textarea  id="demo" class="Input-text ng-pristine ng-untouched ng-valid ng-empty ng-valid-maxlength" ng-model="address" placeholder="Enter your Address" type="" value="" aria-invalid="false"></textarea> -->
+                                    <!-- <input id="lat" value="" style="display: none;">
+                                    <input id="lon" value="" style="display: none;">
+                                    <input id="demo" type="text" class="form-control" placeholder="Search Dashboard" aria-label="Search Dashboard" value="" style="display: none;"> -->
+                                    <button class="btn login-form__btn submit w-100" ng-click="signIn()">Sign In</button>
+                                </form>
+
+                                <p class="mt-5 login-form__footer">Dont have account? <a href="#!/page-register" class="text-primary">Sign Up</a> now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+    $(function () {
+ 
+            $(".field-wrapper .field-placeholder").on("click", function () {
+                $(this).closest(".field-wrapper").find("input").focus();
+            });
+            $(".field-wrapper input").on("keyup", function () {
+                var value = $.trim($(this).val());
+                if (value) {
+                    $(this).closest(".field-wrapper").addClass("hasValue");
+                } else {
+                    $(this).closest(".field-wrapper").removeClass("hasValue");
+                }
+            });
+ 
+        });
+</script>
+<!-- <script>
+      // Note: This example requires that you consent to location sharing when
+      // prompted by your browser. If you see the error "The Geolocation service
+      // failed.", it means you probably did not give permission for the browser to
+      // locate you.
+      var map, infoWindow;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 6
+        });
+        infoWindow = new google.maps.InfoWindow;
+
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+            // alert(pos)
+            infoWindow.setPosition(pos);
+            infoWindow.setContent('Location found.');
+            infoWindow.open(map);
+            map.setCenter(pos);
+            var latitude = pos.lat;
+            var longitude = pos.lng;
+            $.ajax({
+           type: "GET",
+           url: 'https://locationapi-100.appspot.com/location/reverse?lat='+latitude.toString()+'&lon='+longitude.toString(),
+           success: function(data)
+           {
+              // alert(JSON.stringify(data))
+               var address = data.display_name;
+                $("#demo").val(function() {
+                  return this.value + address;
+              });
+                var lat = data.lat;
+                $("#lat").val(function() {
+                  return this.value + lat;
+              });
+                var lon = data.lon;
+                $("#lon").val(function() {
+                  return this.value + lon;
+              });
+           }
+         });
+
+            
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+      }
+
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: The Geolocation service failed.' :
+                              'Error: Your browser doesn\'t support geolocation.');
+        infoWindow.open(map);
+      }
+    </script> -->
+    <!-- <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWwooGB9s4FaR-m4EZ60R8MNSy_YFn3AQ&callback=initMap">
+    </script> -->
+    <!-- <script type="text/javascript"
+        src="http://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false&key=AIzaSyAnGY6_Z1MwkULHgLqOXcDREIlzmUcyGoA&callback=initMap">
+</script> -->
+<script type="text/javascript">
+    // Restricts input for each element in the set of matched elements to the given inputFilter.
+(function($) {
+  $.fn.inputFilter = function(inputFilter) {
+    return this.on("input keydown keyup mousedown mouseup select contextmenu drop", function() {
+      if (inputFilter(this.value)) {
+        this.oldValue = this.value;
+        this.oldSelectionStart = this.selectionStart;
+        this.oldSelectionEnd = this.selectionEnd;
+      } else if (this.hasOwnProperty("oldValue")) {
+        this.value = this.oldValue;
+        this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+      } else {
+        this.value = "";
+      }
+    });
+  };
+}(jQuery));
+$("#user_mobile").inputFilter(function(value) {
+  return /^\d*$/.test(value) && (value === "" || parseInt(value) <= 50000000000); });
+</script>
+<!-- <script type="text/javascript">
+    var emailInput;
+
+$("#add_customer_email").on("change", function() {
+  emailInput = $(this).val();
+
+  if (validateEmail(emailInput)) {
+    $(this).css({
+      color: "white",
+      border: "1px solid #2196f3"
+    });
+  } else {
+    $(this).css({
+      color: "red",
+      border: "1px solid red"
+    });
+
+    // alert("not a valid email address");
+  }
+});
+
+$("#add_customer_email").on("change", function(e) {
+  // e.preventDefault();
+  if (validateEmail(emailInput)) {
+    // alert("you did it!");
+    // Notify("Can't Touch This");
+  } else {
+    // alert('nope');
+    return false;
+  }
+});
+
+function validateEmail(email) {
+  var pattern = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+
+  return $.trim(email).match(pattern) ? true : false;
+}
+</script> -->
